@@ -1,0 +1,25 @@
+Circuit: * C:\Users\markx\Documents\GrabCAD\AERPAW\EDA\P2_PowerSystem\P2_PowerSystem\temp_Mux.asc
+
+Instance "m:u1:6": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u1:5": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u2:6": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u2:5": Length shorter than recommended for a level 2 MOSFET.
+Direct Newton iteration for .op point succeeded.
+
+Date: Wed Oct 27 15:44:52 2021
+Total elapsed time: 0.287 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 14068
+traniter = 14048
+tranpoints = 5141
+accept = 3858
+rejected = 1283
+matrix size = 77
+fillins = 50
+solver = Normal
+Matrix Compiler1: 5.66 KB object code size  1.4/0.7/[0.3]
+Matrix Compiler2: 7.27 KB object code size  0.7/1.0/[0.5]
+

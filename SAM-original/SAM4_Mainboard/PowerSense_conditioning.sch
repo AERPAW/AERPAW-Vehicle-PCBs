@@ -1,0 +1,642 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 8
+Title ""
+Date "2020-09-27"
+Rev "0.1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 "Author - Mark Funderburk"
+$EndDescr
+Text GLabel 8200 2350 2    50   Input ~ 0
+BATT_VOLTAGE_SENS_PROT
+Text GLabel 8200 2550 2    50   Input ~ 0
+AUX_BATT_VOLTAGE_SENS
+Wire Wire Line
+	1900 1800 1900 2050
+$Comp
+L P2_PowerSystem-rescue:C-Device C34
+U 1 1 5F7FEBD1
+P 1900 2200
+F 0 "C34" H 2015 2246 50  0000 L CNN
+F 1 "1uF" H 2015 2155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 1938 2050 50  0001 C CNN
+F 3 "~" H 1900 2200 50  0001 C CNN
+	1    1900 2200
+	1    0    0    -1  
+$EndComp
+Connection ~ 1900 2050
+$Comp
+L P2_PowerSystem-rescue:GND-power #PWR087
+U 1 1 5F7FF0F8
+P 1900 2650
+F 0 "#PWR087" H 1900 2400 50  0001 C CNN
+F 1 "GND" H 1905 2477 50  0000 C CNN
+F 2 "" H 1900 2650 50  0001 C CNN
+F 3 "" H 1900 2650 50  0001 C CNN
+	1    1900 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 2350 1900 2500
+$Comp
+L P2_PowerSystem-rescue:TPS76350-Regulator_Linear U8
+U 1 1 5F8043A0
+P 2750 2150
+F 0 "U8" H 2750 2492 50  0000 C CNN
+F 1 "TPS76350" H 2750 2401 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 2750 2475 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/tps763.pdf" H 2750 2150 50  0001 C CNN
+	1    2750 2150
+	1    0    0    -1  
+$EndComp
+Text GLabel 1900 1500 1    50   Input ~ 0
+5V3_Primary
+Wire Wire Line
+	1900 2050 2350 2050
+Wire Wire Line
+	2450 2150 2350 2150
+Wire Wire Line
+	2350 2150 2350 2050
+Connection ~ 2350 2050
+Wire Wire Line
+	2350 2050 2450 2050
+Wire Wire Line
+	2750 2450 2750 2500
+Wire Wire Line
+	2750 2500 1900 2500
+Connection ~ 1900 2500
+Wire Wire Line
+	1900 2500 1900 2650
+$Comp
+L P2_PowerSystem-rescue:+5VA-power #PWR088
+U 1 1 5F80C79D
+P 3200 2050
+F 0 "#PWR088" H 3200 1900 50  0001 C CNN
+F 1 "+5VA" H 3215 2223 50  0000 C CNN
+F 2 "" H 3200 2050 50  0001 C CNN
+F 3 "" H 3200 2050 50  0001 C CNN
+	1    3200 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 2050 3100 2050
+$Comp
+L P2_PowerSystem-rescue:CP_Small-Device C37
+U 1 1 5F80E042
+P 3100 2150
+F 0 "C37" H 3188 2196 50  0000 L CNN
+F 1 "4.7uF" H 3188 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 3100 2150 50  0001 C CNN
+F 3 "~" H 3100 2150 50  0001 C CNN
+F 4 "TR3A475K010C1000" H 3100 2150 50  0001 C CNN "PN"
+F 5 "https://www.digikey.com/product-detail/en/vishay-sprague/TR3A475K010C1000/718-1478-1-ND/1859953" H 3100 2150 50  0001 C CNN "Link"
+	1    3100 2150
+	1    0    0    -1  
+$EndComp
+Connection ~ 3100 2050
+Wire Wire Line
+	3100 2050 3200 2050
+Wire Wire Line
+	2750 2500 3100 2500
+Wire Wire Line
+	3100 2500 3100 2250
+Connection ~ 2750 2500
+$Comp
+L P2_PowerSystem-rescue:R_Small_US-Device R16
+U 1 1 5F8178ED
+P 4100 4000
+F 0 "R16" V 3895 4000 50  0000 C CNN
+F 1 "47" V 3986 4000 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 4100 4000 50  0001 C CNN
+F 3 "~" H 4100 4000 50  0001 C CNN
+	1    4100 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L P2_PowerSystem-rescue:R_Small_US-Device R10
+U 1 1 5F827024
+P 2600 4100
+F 0 "R10" H 2532 4054 50  0000 R CNN
+F 1 "100k" H 2532 4145 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 2600 4100 50  0001 C CNN
+F 3 "~" H 2600 4100 50  0001 C CNN
+	1    2600 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L P2_PowerSystem-rescue:R_Small_US-Device R12
+U 1 1 5F835ADB
+P 3200 3650
+F 0 "R12" V 3150 3800 50  0000 C CNN
+F 1 "100k" V 3300 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 3200 3650 50  0001 C CNN
+F 3 "~" H 3200 3650 50  0001 C CNN
+	1    3200 3650
+	0    -1   1    0   
+$EndComp
+$Comp
+L P2_PowerSystem-rescue:R_Small_US-Device R13
+U 1 1 5F835AE1
+P 3200 4850
+F 0 "R13" V 3150 5000 50  0000 C CNN
+F 1 "12k" V 3300 4850 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 3200 4850 50  0001 C CNN
+F 3 "~" H 3200 4850 50  0001 C CNN
+	1    3200 4850
+	0    -1   1    0   
+$EndComp
+$Comp
+L P2_PowerSystem-rescue:CP_Small-Device C35
+U 1 1 5F835AE7
+P 3200 4650
+F 0 "C35" V 3150 4800 50  0000 C CNN
+F 1 "104nF" V 3300 4600 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 3200 4650 50  0001 C CNN
+F 3 "~" H 3200 4650 50  0001 C CNN
+	1    3200 4650
+	0    -1   1    0   
+$EndComp
+$Comp
+L P2_PowerSystem-rescue:R_Small_US-Device R8
+U 1 1 5F848066
+P 2350 3900
+F 0 "R8" V 2250 3900 50  0000 C CNN
+F 1 "12k" V 2450 3900 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 2350 3900 50  0001 C CNN
+F 3 "~" H 2350 3900 50  0001 C CNN
+	1    2350 3900
+	0    -1   1    0   
+$EndComp
+$Comp
+L P2_PowerSystem-rescue:R_Small_US-Device R18
+U 1 1 5F86F23B
+P 4250 4300
+F 0 "R18" H 4182 4254 50  0000 R CNN
+F 1 "220" H 4182 4345 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 4250 4300 50  0001 C CNN
+F 3 "~" H 4250 4300 50  0001 C CNN
+	1    4250 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L P2_PowerSystem-rescue:+BATT-power #PWR093
+U 1 1 5F8723CF
+P 7300 2100
+F 0 "#PWR093" H 7300 1950 50  0001 C CNN
+F 1 "+BATT" H 7315 2273 50  0000 C CNN
+F 2 "" H 7300 2100 50  0001 C CNN
+F 3 "" H 7300 2100 50  0001 C CNN
+	1    7300 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L P2_PowerSystem-rescue:R_Small_US-Device R20
+U 1 1 5F87F32E
+P 7300 2300
+F 0 "R20" H 7368 2346 50  0000 L CNN
+F 1 "36k" H 7368 2255 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 7300 2300 50  0001 C CNN
+F 3 "~" H 7300 2300 50  0001 C CNN
+	1    7300 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L P2_PowerSystem-rescue:R_Small_US-Device R21
+U 1 1 5F881519
+P 7300 2600
+F 0 "R21" H 7368 2646 50  0000 L CNN
+F 1 "2k" H 7368 2555 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 7300 2600 50  0001 C CNN
+F 3 "~" H 7300 2600 50  0001 C CNN
+	1    7300 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L P2_PowerSystem-rescue:GND-power #PWR094
+U 1 1 5F8834A3
+P 7300 2800
+F 0 "#PWR094" H 7300 2550 50  0001 C CNN
+F 1 "GND" H 7305 2627 50  0000 C CNN
+F 2 "" H 7300 2800 50  0001 C CNN
+F 3 "" H 7300 2800 50  0001 C CNN
+	1    7300 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 2700 7300 2750
+Wire Wire Line
+	7300 2400 7300 2450
+Wire Wire Line
+	7300 2200 7300 2100
+Connection ~ 7300 2450
+Wire Wire Line
+	7300 2450 7300 2500
+Wire Wire Line
+	7300 2450 7700 2450
+$Comp
+L P2_PowerSystem-rescue:C-Device C38
+U 1 1 5F895FF3
+P 7700 2600
+F 0 "C38" H 7815 2646 50  0000 L CNN
+F 1 "104nF" H 7815 2555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 7738 2450 50  0001 C CNN
+F 3 "~" H 7700 2600 50  0001 C CNN
+	1    7700 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 2750 7700 2750
+Connection ~ 7300 2750
+Wire Wire Line
+	7300 2750 7300 2800
+Connection ~ 7700 2450
+Wire Wire Line
+	7700 2450 8100 2450
+Wire Wire Line
+	8100 2350 8200 2350
+Wire Wire Line
+	8100 2550 8200 2550
+Wire Wire Line
+	8100 2350 8100 2450
+Connection ~ 8100 2450
+Wire Wire Line
+	8100 2450 8100 2550
+$Comp
+L P2_PowerSystem-rescue:Fuse_Small-Device F?
+U 1 1 5FF357A9
+P 1900 1700
+AR Path="/5F34D91D/5FF357A9" Ref="F?"  Part="1" 
+AR Path="/5F38811E/5FF357A9" Ref="F7"  Part="1" 
+F 0 "F7" V 1854 1652 50  0000 R CNN
+F 1 "1A" V 1945 1652 50  0000 R CNN
+F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1900 1700 50  0001 C CNN
+F 3 "~" H 1900 1700 50  0001 C CNN
+	1    1900 1700
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	1900 1600 1900 1500
+Text GLabel 2100 3900 0    50   Input ~ 0
+V1_Hall_raw
+Text GLabel 4350 4000 2    50   Input ~ 0
+BATT_CURRENT_SENS_PROT
+$Comp
+L P2_PowerSystem-rescue:GND-power #PWR0118
+U 1 1 603AD1B8
+P 2600 4350
+F 0 "#PWR0118" H 2600 4100 50  0001 C CNN
+F 1 "GND" H 2605 4177 50  0000 C CNN
+F 2 "" H 2600 4350 50  0001 C CNN
+F 3 "" H 2600 4350 50  0001 C CNN
+	1    2600 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L P2_PowerSystem-rescue:+5VA-power #PWR0119
+U 1 1 603AD1EA
+P 4050 3300
+F 0 "#PWR0119" H 4050 3150 50  0001 C CNN
+F 1 "+5VA" V 4065 3428 50  0000 L CNN
+F 2 "" H 4050 3300 50  0001 C CNN
+F 3 "" H 4050 3300 50  0001 C CNN
+	1    4050 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2100 3900 2250 3900
+Wire Wire Line
+	2450 3900 2600 3900
+$Comp
+L P2_PowerSystem-rescue:MCP601-xOT-Amplifier_Operational U9
+U 1 1 603A668D
+P 3550 4000
+F 0 "U9" H 3600 4150 50  0000 L CNN
+F 1 "MCP601-xOT" H 2550 4500 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3450 3800 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf" H 3550 4200 50  0001 C CNN
+	1    3550 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 4000 3900 4000
+Connection ~ 2600 3900
+Wire Wire Line
+	2600 3900 3250 3900
+Wire Wire Line
+	2950 4850 3100 4850
+Wire Wire Line
+	2950 4650 3100 4650
+Wire Wire Line
+	2950 4650 2950 4850
+Wire Wire Line
+	3250 4100 2950 4100
+Connection ~ 2950 4650
+Wire Wire Line
+	3450 4650 3300 4650
+Wire Wire Line
+	3450 4650 3450 4850
+Wire Wire Line
+	3450 4850 3300 4850
+$Comp
+L P2_PowerSystem-rescue:GND-power #PWR0121
+U 1 1 60421175
+P 4250 4550
+F 0 "#PWR0121" H 4250 4300 50  0001 C CNN
+F 1 "GND" H 4255 4377 50  0000 C CNN
+F 2 "" H 4250 4550 50  0001 C CNN
+F 3 "" H 4250 4550 50  0001 C CNN
+	1    4250 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 4000 4250 4000
+Wire Wire Line
+	4250 4200 4250 4000
+Connection ~ 4250 4000
+Wire Wire Line
+	4250 4000 4350 4000
+Wire Wire Line
+	2600 3900 2600 4000
+Wire Wire Line
+	2600 4200 2600 4350
+Wire Wire Line
+	3450 3300 3450 3650
+Connection ~ 3450 3650
+Wire Wire Line
+	3450 3650 3450 3700
+Wire Wire Line
+	2950 3650 2950 4100
+Wire Wire Line
+	2950 3650 3100 3650
+Wire Wire Line
+	3300 3650 3450 3650
+Wire Wire Line
+	4250 4400 4250 4550
+Wire Wire Line
+	3450 4850 3900 4850
+Connection ~ 3450 4850
+Connection ~ 3900 4000
+Wire Wire Line
+	3900 4000 4000 4000
+Wire Wire Line
+	2950 4100 2950 4650
+Connection ~ 2950 4100
+Wire Wire Line
+	3900 4000 3900 4850
+$Comp
+L P2_PowerSystem-rescue:GND-power #PWR0122
+U 1 1 6044EDAC
+P 3600 4400
+F 0 "#PWR0122" H 3600 4150 50  0001 C CNN
+F 1 "GND" H 3605 4227 50  0000 C CNN
+F 2 "" H 3600 4400 50  0001 C CNN
+F 3 "" H 3600 4400 50  0001 C CNN
+	1    3600 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 4300 3450 4350
+Wire Wire Line
+	3450 4350 3600 4350
+Wire Wire Line
+	3600 4350 3600 4400
+Wire Wire Line
+	3800 5550 4050 5550
+Connection ~ 3800 5550
+Wire Wire Line
+	3450 5550 3800 5550
+Wire Wire Line
+	2600 6150 2600 6250
+Wire Wire Line
+	3600 6600 3600 6650
+Wire Wire Line
+	3450 6600 3600 6600
+Wire Wire Line
+	3450 6550 3450 6600
+$Comp
+L P2_PowerSystem-rescue:GND-power #PWR0123
+U 1 1 6046DAC0
+P 3600 6650
+F 0 "#PWR0123" H 3600 6400 50  0001 C CNN
+F 1 "GND" H 3605 6477 50  0000 C CNN
+F 2 "" H 3600 6650 50  0001 C CNN
+F 3 "" H 3600 6650 50  0001 C CNN
+	1    3600 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 6250 3900 7100
+Connection ~ 2950 6350
+Wire Wire Line
+	2950 6350 2950 6900
+Wire Wire Line
+	3900 6250 4000 6250
+Connection ~ 3900 6250
+Connection ~ 3450 7100
+Wire Wire Line
+	3450 7100 3900 7100
+Wire Wire Line
+	4250 6650 4250 6800
+Wire Wire Line
+	3300 5900 3450 5900
+Wire Wire Line
+	2950 5900 3100 5900
+Wire Wire Line
+	2950 5900 2950 6350
+Wire Wire Line
+	3450 5900 3450 5950
+Connection ~ 3450 5900
+Wire Wire Line
+	3450 5550 3450 5900
+Wire Wire Line
+	2600 6450 2600 6600
+Wire Wire Line
+	4250 6250 4350 6250
+Connection ~ 4250 6250
+Wire Wire Line
+	4250 6450 4250 6250
+Wire Wire Line
+	4200 6250 4250 6250
+$Comp
+L P2_PowerSystem-rescue:GND-power #PWR0124
+U 1 1 6046DAA6
+P 4250 6800
+F 0 "#PWR0124" H 4250 6550 50  0001 C CNN
+F 1 "GND" H 4255 6627 50  0000 C CNN
+F 2 "" H 4250 6800 50  0001 C CNN
+F 3 "" H 4250 6800 50  0001 C CNN
+	1    4250 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 7100 3300 7100
+Wire Wire Line
+	3450 6900 3450 7100
+Wire Wire Line
+	3450 6900 3300 6900
+Connection ~ 2950 6900
+Wire Wire Line
+	3250 6350 2950 6350
+Wire Wire Line
+	2950 6900 2950 7100
+Wire Wire Line
+	2950 6900 3100 6900
+Wire Wire Line
+	2950 7100 3100 7100
+Wire Wire Line
+	2600 6150 3250 6150
+Connection ~ 2600 6150
+Wire Wire Line
+	3850 6250 3900 6250
+$Comp
+L P2_PowerSystem-rescue:MCP601-xOT-Amplifier_Operational U10
+U 1 1 6046DA87
+P 3550 6250
+F 0 "U10" H 3894 6296 50  0000 L CNN
+F 1 "MCP601-xOT" H 2750 6800 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3450 6050 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf" H 3550 6450 50  0001 C CNN
+	1    3550 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L P2_PowerSystem-rescue:GND-power #PWR0125
+U 1 1 6046DA80
+P 3800 5850
+F 0 "#PWR0125" H 3800 5600 50  0001 C CNN
+F 1 "GND" H 3805 5677 50  0000 C CNN
+F 2 "" H 3800 5850 50  0001 C CNN
+F 3 "" H 3800 5850 50  0001 C CNN
+	1    3800 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 6150 2600 6150
+Wire Wire Line
+	2100 6150 2250 6150
+$Comp
+L P2_PowerSystem-rescue:+5VA-power #PWR0126
+U 1 1 6046DA72
+P 4050 5550
+F 0 "#PWR0126" H 4050 5400 50  0001 C CNN
+F 1 "+5VA" V 4065 5678 50  0000 L CNN
+F 2 "" H 4050 5550 50  0001 C CNN
+F 3 "" H 4050 5550 50  0001 C CNN
+	1    4050 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L P2_PowerSystem-rescue:GND-power #PWR0127
+U 1 1 6046DA54
+P 2600 6600
+F 0 "#PWR0127" H 2600 6350 50  0001 C CNN
+F 1 "GND" H 2605 6427 50  0000 C CNN
+F 2 "" H 2600 6600 50  0001 C CNN
+F 3 "" H 2600 6600 50  0001 C CNN
+	1    2600 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L P2_PowerSystem-rescue:C-Device C?
+U 1 1 603226BF
+P 3800 5700
+AR Path="/5F851B21/603226BF" Ref="C?"  Part="1" 
+AR Path="/5F34D91D/603226BF" Ref="C?"  Part="1" 
+AR Path="/5F38811E/603226BF" Ref="C31"  Part="1" 
+F 0 "C31" H 3915 5746 50  0000 L CNN
+F 1 "0.1uF" H 3915 5655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 3838 5550 50  0001 C CNN
+F 3 "~" H 3800 5700 50  0001 C CNN
+	1    3800 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L P2_PowerSystem-rescue:R_Small_US-Device R19
+U 1 1 5F86C046
+P 4250 6550
+F 0 "R19" H 4182 6504 50  0000 R CNN
+F 1 "220" H 4182 6595 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 4250 6550 50  0001 C CNN
+F 3 "~" H 4250 6550 50  0001 C CNN
+	1    4250 6550
+	-1   0    0    1   
+$EndComp
+$Comp
+L P2_PowerSystem-rescue:R_Small_US-Device R9
+U 1 1 5F8696D6
+P 2350 6150
+F 0 "R9" V 2250 6150 50  0000 C CNN
+F 1 "12k" V 2450 6150 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 2350 6150 50  0001 C CNN
+F 3 "~" H 2350 6150 50  0001 C CNN
+	1    2350 6150
+	0    -1   1    0   
+$EndComp
+$Comp
+L P2_PowerSystem-rescue:CP_Small-Device C36
+U 1 1 5F8696B9
+P 3200 6900
+F 0 "C36" V 3150 7050 50  0000 C CNN
+F 1 "104nF" V 3300 6850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 3200 6900 50  0001 C CNN
+F 3 "~" H 3200 6900 50  0001 C CNN
+	1    3200 6900
+	0    -1   1    0   
+$EndComp
+$Comp
+L P2_PowerSystem-rescue:R_Small_US-Device R15
+U 1 1 5F8696B3
+P 3200 7100
+F 0 "R15" V 3150 7250 50  0000 C CNN
+F 1 "12k" V 3300 7100 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 3200 7100 50  0001 C CNN
+F 3 "~" H 3200 7100 50  0001 C CNN
+	1    3200 7100
+	0    -1   1    0   
+$EndComp
+$Comp
+L P2_PowerSystem-rescue:R_Small_US-Device R14
+U 1 1 5F8696AD
+P 3200 5900
+F 0 "R14" V 3200 6100 50  0000 C CNN
+F 1 "100k" V 3300 5900 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 3200 5900 50  0001 C CNN
+F 3 "~" H 3200 5900 50  0001 C CNN
+	1    3200 5900
+	0    -1   1    0   
+$EndComp
+$Comp
+L P2_PowerSystem-rescue:R_Small_US-Device R11
+U 1 1 5F8696A3
+P 2600 6350
+F 0 "R11" H 2532 6304 50  0000 R CNN
+F 1 "100k" H 2532 6395 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 2600 6350 50  0001 C CNN
+F 3 "~" H 2600 6350 50  0001 C CNN
+	1    2600 6350
+	-1   0    0    1   
+$EndComp
+$Comp
+L P2_PowerSystem-rescue:R_Small_US-Device R17
+U 1 1 5F869695
+P 4100 6250
+F 0 "R17" V 3895 6250 50  0000 C CNN
+F 1 "47" V 3986 6250 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 4100 6250 50  0001 C CNN
+F 3 "~" H 4100 6250 50  0001 C CNN
+	1    4100 6250
+	0    1    1    0   
+$EndComp
+Text GLabel 2100 6150 0    50   Input ~ 0
+V2_Hall_raw
+Text GLabel 4350 6250 2    50   Input ~ 0
+AUX_BATT_CURRENT_SENS
+Wire Wire Line
+	3450 3300 4050 3300
+$EndSCHEMATC

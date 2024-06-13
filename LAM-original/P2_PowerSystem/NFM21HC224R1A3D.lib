@@ -1,0 +1,37 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# NFM21HC224R1A3D
+#
+DEF NFM21HC224R1A3D FL 0 40 Y N 1 L N
+F0 "FL" -200 100 50 H V L BNN
+F1 "NFM21HC224R1A3D" -200 -400 50 H V L BNN
+F2 "FIL_NFM21HC224R1A3D" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "NFM21HC474R1A3D" 0 0 50 H I L BNN "MP"
+F5 "Unavailable" 0 0 50 H I L BNN "AVAILABILITY"
+F6 "Feedthrough Capacitor" 0 0 50 H I L BNN "DESCRIPTION"
+F7 "Murata" 0 0 50 H I L BNN "MF"
+F8 "0805 Murata" 0 0 50 H I L BNN "PACKAGE"
+F9 "None" 0 0 50 H I L BNN "PRICE"
+DRAW
+P 2 0 0 10 -200 0 200 0 N
+A 0 160 141 3150 2250 0 0 10 N 100 60 -100 60
+A 0 -160 141 1350 450 0 0 10 N -100 -60 100 -60
+P 2 0 0 10 0 -20 0 -200 N
+P 2 0 0 10 -50 -200 50 -200 N
+P 2 0 0 10 -30 -220 30 -220 N
+P 2 0 0 10 -10 -240 10 -240 N
+X ~ 1 -400 0 200 R 40 40 0 0 I 
+X ~ 3 400 0 200 L 40 40 0 0 O 
+X ~ 2 -200 -200 200 R 40 40 0 0 W 
+X ~ 2_1 -200 -200 200 R 40 40 0 0 W 
+X ~ 2_2 -200 -200 200 R 40 40 0 0 W 
+X ~ 2_3 -200 -200 200 R 40 40 0 0 W 
+X ~ 2_4 -200 -200 200 R 40 40 0 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library

@@ -1,0 +1,49 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AZ1117-ADJ
+D 1A 20V Adjustable LDO Linear Regulator, SOT-89/SOT-223/TO-220/TO-252/TO-263
+K Adjustable Voltage Regulator 1A Positive LDO
+F https://www.diodes.com/assets/Datasheets/AZ1117.pdf
+$ENDCMP
+#
+$CMP I7C4W012A050V
+D Non-Isolated PoL Module DC DC Converter 1 Output 5 ~ 28V    12.5A 9V - 53V Input
+F https://product.tdk.com/info/en/catalog/datasheets/i7c_e.pdf
+$ENDCMP
+#
+$CMP IAUS300N08S5N012
+D MOSFET N-CH 60V 115MA SOT-23
+K 2N7002NCT-ND
+F https://www.infineon.com/dgdl/Infineon-IAUS300N08S5N012-DS-v01_00-EN.pdf?fileId=5546d462636cc8fb01644081e6ac6348
+$ENDCMP
+#
+$CMP LM317HV
+D 1.5A 60V Adjustable Linear Regulator, TO-220
+K Adjustable Voltage Regulator 1.5A Positive
+F https://www.ti.com/lit/ds/symlink/lm117hv.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1593074544027
+$ENDCMP
+#
+$CMP LTC4376
+D 7A Ideal Diode with Reverse Input Protection
+K Ideal Diode OR ORing OR'ing
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LTC4376.pdf
+$ENDCMP
+#
+$CMP TPS7A1650
+D Linear Voltage Regulator IC  1 Output  100mA 8-MSOP-PowerPad
+F https://www.ti.com/lit/ds/symlink/tps7a16-q1.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1601195924112
+$ENDCMP
+#
+$CMP UCC2751x
+D Single-Channel, High-Speed, Low-Side Gate Driver 4A
+K Low-Side Gate Driver Low Side MOSFET
+F https://www.ti.com/lit/ds/symlink/ucc27511.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1593077250497
+$ENDCMP
+#
+$CMP i3A4W005A150V
+D Non-Isolated PoL Module DC DC Converter 1 Output 5 ~ 30V    4.5A 9V - 53V Input
+K DC DC CONVERTER 5-30V 135W
+F https://product.tdk.com/info/en/documents/spec/dc-dc-converter/i3a_spec.pdf
+$ENDCMP
+#
+#End Doc Library

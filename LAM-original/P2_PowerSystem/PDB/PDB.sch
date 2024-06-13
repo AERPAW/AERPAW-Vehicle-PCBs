@@ -1,0 +1,1330 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "PDB"
+Date "2021-10-24"
+Rev "1.1"
+Comp "NCSU - AERPAW"
+Comment1 "Author: Mark Funderburk"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L PDB-rescue:IAUS300N08S5N012-AERPAW Q4
+U 1 1 5F2BB86A
+P 6950 2900
+F 0 "Q4" H 7058 2953 60  0000 L CNN
+F 1 "IAUS300N08S5N012" H 7058 2847 60  0000 L CNN
+F 2 "Package_TO_SOT_SMD:Infineon_PG-HSOF-8-1" H 7150 3100 60  0001 L CNN
+F 3 "" H 7150 3200 60  0001 L CNN
+F 4 "IAUS300N08S5N012ATMA1CT-ND" H 7150 3300 60  0001 L CNN "Digi-Key_PN"
+F 5 "IAUS300N08S5N012ATMA1" H 7150 3400 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 7150 3500 60  0001 L CNN "Category"
+F 7 "Transistors - FETs, MOSFETs - Single" H 7150 3600 60  0001 L CNN "Family"
+F 8 "https://www.infineon.com/dgdl/Infineon-IAUS300N08S5N012-DS-v01_00-EN.pdf?fileId=5546d462636cc8fb01644081e6ac6348" H 7150 3700 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "https://www.digikey.com/product-detail/en/infineon-technologies/IAUS300N08S5N012ATMA1/IAUS300N08S5N012ATMA1CT-ND/9816189" H 7150 3800 60  0001 L CNN "DK_Detail_Page"
+F 10 "MOSFET N-CH 80V 300A PG-HSOG-8-1" H 7150 3900 60  0001 L CNN "Description"
+F 11 "Infineon Technologies" H 7150 4000 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7150 4100 60  0001 L CNN "Status"
+	1    6950 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L PDB-rescue:IAUS300N08S5N012-AERPAW Q5
+U 1 1 5F2BDB67
+P 6950 3550
+F 0 "Q5" H 7058 3603 60  0000 L CNN
+F 1 "IAUS300N08S5N012" H 7058 3497 60  0000 L CNN
+F 2 "Package_TO_SOT_SMD:Infineon_PG-HSOF-8-1" H 7150 3750 60  0001 L CNN
+F 3 "" H 7150 3850 60  0001 L CNN
+F 4 "IAUS300N08S5N012ATMA1CT-ND" H 7150 3950 60  0001 L CNN "Digi-Key_PN"
+F 5 "IAUS300N08S5N012ATMA1" H 7150 4050 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 7150 4150 60  0001 L CNN "Category"
+F 7 "Transistors - FETs, MOSFETs - Single" H 7150 4250 60  0001 L CNN "Family"
+F 8 "https://www.infineon.com/dgdl/Infineon-IAUS300N08S5N012-DS-v01_00-EN.pdf?fileId=5546d462636cc8fb01644081e6ac6348" H 7150 4350 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "https://www.digikey.com/product-detail/en/infineon-technologies/IAUS300N08S5N012ATMA1/IAUS300N08S5N012ATMA1CT-ND/9816189" H 7150 4450 60  0001 L CNN "DK_Detail_Page"
+F 10 "MOSFET N-CH 80V 300A PG-HSOG-8-1" H 7150 4550 60  0001 L CNN "Description"
+F 11 "Infineon Technologies" H 7150 4650 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7150 4750 60  0001 L CNN "Status"
+	1    6950 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L PDB-rescue:IAUS300N08S5N012-AERPAW Q6
+U 1 1 5F2BE93E
+P 6950 4200
+F 0 "Q6" H 7058 4253 60  0000 L CNN
+F 1 "IAUS300N08S5N012" H 7058 4147 60  0000 L CNN
+F 2 "Package_TO_SOT_SMD:Infineon_PG-HSOF-8-1" H 7150 4400 60  0001 L CNN
+F 3 "" H 7150 4500 60  0001 L CNN
+F 4 "IAUS300N08S5N012ATMA1CT-ND" H 7150 4600 60  0001 L CNN "Digi-Key_PN"
+F 5 "IAUS300N08S5N012ATMA1" H 7150 4700 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 7150 4800 60  0001 L CNN "Category"
+F 7 "Transistors - FETs, MOSFETs - Single" H 7150 4900 60  0001 L CNN "Family"
+F 8 "https://www.infineon.com/dgdl/Infineon-IAUS300N08S5N012-DS-v01_00-EN.pdf?fileId=5546d462636cc8fb01644081e6ac6348" H 7150 5000 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "https://www.digikey.com/product-detail/en/infineon-technologies/IAUS300N08S5N012ATMA1/IAUS300N08S5N012ATMA1CT-ND/9816189" H 7150 5100 60  0001 L CNN "DK_Detail_Page"
+F 10 "MOSFET N-CH 80V 300A PG-HSOG-8-1" H 7150 5200 60  0001 L CNN "Description"
+F 11 "Infineon Technologies" H 7150 5300 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7150 5400 60  0001 L CNN "Status"
+	1    6950 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L PDB-rescue:IAUS300N08S5N012-AERPAW Q7
+U 1 1 5F2BFAB9
+P 6950 4850
+F 0 "Q7" H 7058 4903 60  0000 L CNN
+F 1 "IAUS300N08S5N012" H 7058 4797 60  0000 L CNN
+F 2 "Package_TO_SOT_SMD:Infineon_PG-HSOF-8-1" H 7150 5050 60  0001 L CNN
+F 3 "" H 7150 5150 60  0001 L CNN
+F 4 "IAUS300N08S5N012ATMA1CT-ND" H 7150 5250 60  0001 L CNN "Digi-Key_PN"
+F 5 "IAUS300N08S5N012ATMA1" H 7150 5350 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 7150 5450 60  0001 L CNN "Category"
+F 7 "Transistors - FETs, MOSFETs - Single" H 7150 5550 60  0001 L CNN "Family"
+F 8 "https://www.infineon.com/dgdl/Infineon-IAUS300N08S5N012-DS-v01_00-EN.pdf?fileId=5546d462636cc8fb01644081e6ac6348" H 7150 5650 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "https://www.digikey.com/product-detail/en/infineon-technologies/IAUS300N08S5N012ATMA1/IAUS300N08S5N012ATMA1CT-ND/9816189" H 7150 5750 60  0001 L CNN "DK_Detail_Page"
+F 10 "MOSFET N-CH 80V 300A PG-HSOG-8-1" H 7150 5850 60  0001 L CNN "Description"
+F 11 "Infineon Technologies" H 7150 5950 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7150 6050 60  0001 L CNN "Status"
+	1    6950 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L PDB-rescue:IAUS300N08S5N012-AERPAW Q8
+U 1 1 5F2C0AFC
+P 6950 5500
+F 0 "Q8" H 7058 5553 60  0000 L CNN
+F 1 "IAUS300N08S5N012" H 7058 5447 60  0000 L CNN
+F 2 "Package_TO_SOT_SMD:Infineon_PG-HSOF-8-1" H 7150 5700 60  0001 L CNN
+F 3 "" H 7150 5800 60  0001 L CNN
+F 4 "IAUS300N08S5N012ATMA1CT-ND" H 7150 5900 60  0001 L CNN "Digi-Key_PN"
+F 5 "IAUS300N08S5N012ATMA1" H 7150 6000 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 7150 6100 60  0001 L CNN "Category"
+F 7 "Transistors - FETs, MOSFETs - Single" H 7150 6200 60  0001 L CNN "Family"
+F 8 "https://www.infineon.com/dgdl/Infineon-IAUS300N08S5N012-DS-v01_00-EN.pdf?fileId=5546d462636cc8fb01644081e6ac6348" H 7150 6300 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "https://www.digikey.com/product-detail/en/infineon-technologies/IAUS300N08S5N012ATMA1/IAUS300N08S5N012ATMA1CT-ND/9816189" H 7150 6400 60  0001 L CNN "DK_Detail_Page"
+F 10 "MOSFET N-CH 80V 300A PG-HSOG-8-1" H 7150 6500 60  0001 L CNN "Description"
+F 11 "Infineon Technologies" H 7150 6600 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7150 6700 60  0001 L CNN "Status"
+	1    6950 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L PDB-rescue:IAUS300N08S5N012-AERPAW Q9
+U 1 1 5F2C2271
+P 6950 6150
+F 0 "Q9" H 7058 6203 60  0000 L CNN
+F 1 "IAUS300N08S5N012" H 7058 6097 60  0000 L CNN
+F 2 "Package_TO_SOT_SMD:Infineon_PG-HSOF-8-1" H 7150 6350 60  0001 L CNN
+F 3 "" H 7150 6450 60  0001 L CNN
+F 4 "IAUS300N08S5N012ATMA1CT-ND" H 7150 6550 60  0001 L CNN "Digi-Key_PN"
+F 5 "IAUS300N08S5N012ATMA1" H 7150 6650 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 7150 6750 60  0001 L CNN "Category"
+F 7 "Transistors - FETs, MOSFETs - Single" H 7150 6850 60  0001 L CNN "Family"
+F 8 "https://www.infineon.com/dgdl/Infineon-IAUS300N08S5N012-DS-v01_00-EN.pdf?fileId=5546d462636cc8fb01644081e6ac6348" H 7150 6950 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "https://www.digikey.com/product-detail/en/infineon-technologies/IAUS300N08S5N012ATMA1/IAUS300N08S5N012ATMA1CT-ND/9816189" H 7150 7050 60  0001 L CNN "DK_Detail_Page"
+F 10 "MOSFET N-CH 80V 300A PG-HSOG-8-1" H 7150 7150 60  0001 L CNN "Description"
+F 11 "Infineon Technologies" H 7150 7250 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7150 7350 60  0001 L CNN "Status"
+	1    6950 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L PDB-rescue:IAUS300N08S5N012-AERPAW Q3
+U 1 1 5F2C3828
+P 6950 2250
+F 0 "Q3" H 7058 2303 60  0000 L CNN
+F 1 "IAUS300N08S5N012" H 7058 2197 60  0000 L CNN
+F 2 "Package_TO_SOT_SMD:Infineon_PG-HSOF-8-1" H 7150 2450 60  0001 L CNN
+F 3 "" H 7150 2550 60  0001 L CNN
+F 4 "IAUS300N08S5N012ATMA1CT-ND" H 7150 2650 60  0001 L CNN "Digi-Key_PN"
+F 5 "IAUS300N08S5N012ATMA1" H 7150 2750 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 7150 2850 60  0001 L CNN "Category"
+F 7 "Transistors - FETs, MOSFETs - Single" H 7150 2950 60  0001 L CNN "Family"
+F 8 "https://www.infineon.com/dgdl/Infineon-IAUS300N08S5N012-DS-v01_00-EN.pdf?fileId=5546d462636cc8fb01644081e6ac6348" H 7150 3050 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "https://www.digikey.com/product-detail/en/infineon-technologies/IAUS300N08S5N012ATMA1/IAUS300N08S5N012ATMA1CT-ND/9816189" H 7150 3150 60  0001 L CNN "DK_Detail_Page"
+F 10 "MOSFET N-CH 80V 300A PG-HSOG-8-1" H 7150 3250 60  0001 L CNN "Description"
+F 11 "Infineon Technologies" H 7150 3350 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7150 3450 60  0001 L CNN "Status"
+	1    6950 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L PDB-rescue:IAUS300N08S5N012-AERPAW Q2
+U 1 1 5F2C4F1E
+P 6950 1600
+F 0 "Q2" H 7058 1653 60  0000 L CNN
+F 1 "IAUS300N08S5N012" H 7058 1547 60  0000 L CNN
+F 2 "Package_TO_SOT_SMD:Infineon_PG-HSOF-8-1" H 7150 1800 60  0001 L CNN
+F 3 "" H 7150 1900 60  0001 L CNN
+F 4 "IAUS300N08S5N012ATMA1CT-ND" H 7150 2000 60  0001 L CNN "Digi-Key_PN"
+F 5 "IAUS300N08S5N012ATMA1" H 7150 2100 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 7150 2200 60  0001 L CNN "Category"
+F 7 "Transistors - FETs, MOSFETs - Single" H 7150 2300 60  0001 L CNN "Family"
+F 8 "https://www.infineon.com/dgdl/Infineon-IAUS300N08S5N012-DS-v01_00-EN.pdf?fileId=5546d462636cc8fb01644081e6ac6348" H 7150 2400 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "https://www.digikey.com/product-detail/en/infineon-technologies/IAUS300N08S5N012ATMA1/IAUS300N08S5N012ATMA1CT-ND/9816189" H 7150 2500 60  0001 L CNN "DK_Detail_Page"
+F 10 "MOSFET N-CH 80V 300A PG-HSOG-8-1" H 7150 2600 60  0001 L CNN "Description"
+F 11 "Infineon Technologies" H 7150 2700 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7150 2800 60  0001 L CNN "Status"
+	1    6950 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 1800 8400 1800
+Wire Wire Line
+	6950 2450 8400 2450
+Wire Wire Line
+	6950 3100 8400 3100
+Wire Wire Line
+	6950 3750 8400 3750
+Wire Wire Line
+	6950 4400 8400 4400
+Wire Wire Line
+	6950 5050 8400 5050
+Wire Wire Line
+	6950 5700 8400 5700
+Wire Wire Line
+	6950 6350 8400 6350
+Wire Wire Line
+	8400 1800 8400 2300
+Connection ~ 8400 2450
+Connection ~ 8400 3100
+Connection ~ 8400 3750
+Connection ~ 8400 4400
+Connection ~ 8400 5050
+Connection ~ 8400 5700
+Wire Wire Line
+	8400 5700 8400 6350
+Wire Wire Line
+	6650 2350 6300 2350
+Wire Wire Line
+	6650 1700 6300 1700
+Connection ~ 6300 2350
+Wire Wire Line
+	6300 2350 6300 1700
+Wire Wire Line
+	6650 6250 6300 6250
+Wire Wire Line
+	6950 1400 5250 1400
+Wire Wire Line
+	6950 2050 3650 2050
+Wire Wire Line
+	6950 2700 3650 2700
+Wire Wire Line
+	6950 3350 3650 3350
+Wire Wire Line
+	6950 4000 3650 4000
+Wire Wire Line
+	6950 4650 3650 4650
+Wire Wire Line
+	6950 5300 3650 5300
+Wire Wire Line
+	6950 5950 4750 5950
+Wire Wire Line
+	3650 5950 3650 5300
+Connection ~ 3650 2050
+Wire Wire Line
+	3650 2050 3650 1450
+Connection ~ 3650 2700
+Wire Wire Line
+	3650 2700 3650 2050
+Connection ~ 3650 3350
+Connection ~ 3650 4000
+Connection ~ 3650 4650
+Wire Wire Line
+	3650 4650 3650 4250
+Connection ~ 3650 5300
+Wire Wire Line
+	3650 5300 3650 4650
+Text Label 8400 1800 0    50   ~ 0
+V+_ESC
+Text Label 4700 1400 0    50   ~ 0
+V+_BATT
+Text Label 5800 3150 0    50   ~ 0
+Vg_1
+Text Label 5800 3500 0    50   ~ 0
+Vg_2
+$Comp
+L Connector:Conn_01x01_Male J8
+U 1 1 5F2F9B01
+P 3750 6100
+F 0 "J8" V 3904 6012 50  0000 R CNN
+F 1 "Conn_01x01_Male" V 3813 6012 50  0000 R CNN
+F 2 "Connector_Pin:Pin_D1.3mm_L11.3mm_W2.8mm_Flat" H 3750 6100 50  0001 C CNN
+F 3 "~" H 3750 6100 50  0001 C CNN
+	1    3750 6100
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J7
+U 1 1 5F2FF885
+P 3550 1600
+F 0 "J7" V 3612 1644 50  0000 L CNN
+F 1 "Conn_01x01_Male" H 2850 1700 50  0000 L CNN
+F 2 "Connector_Pin:Pin_D1.3mm_L11.3mm_W2.8mm_Flat" H 3550 1600 50  0001 C CNN
+F 3 "~" H 3550 1600 50  0001 C CNN
+	1    3550 1600
+	0    -1   -1   0   
+$EndComp
+Connection ~ 3650 1400
+$Comp
+L Connector:Conn_01x01_Male J2
+U 1 1 5F339E1E
+P 1700 4950
+F 0 "J2" H 1672 4882 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 1672 4973 50  0000 R CNN
+F 2 "Connector_Pin:Pin_D1.3mm_L11.3mm_W2.8mm_Flat" H 1700 4950 50  0001 C CNN
+F 3 "~" H 1700 4950 50  0001 C CNN
+	1    1700 4950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J1
+U 1 1 5F33AB96
+P 1700 2100
+F 0 "J1" H 1672 2032 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 1672 2123 50  0000 R CNN
+F 2 "Connector_Pin:Pin_D1.3mm_L11.3mm_W2.8mm_Flat" H 1700 2100 50  0001 C CNN
+F 3 "~" H 1700 2100 50  0001 C CNN
+	1    1700 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5F41213D
+P 1500 4950
+F 0 "#PWR02" H 1500 4700 50  0001 C CNN
+F 1 "GND" H 1505 4777 50  0000 C CNN
+F 2 "" H 1500 4950 50  0001 C CNN
+F 3 "" H 1500 4950 50  0001 C CNN
+	1    1500 4950
+	1    0    0    -1  
+$EndComp
+Connection ~ 1500 4950
+$Comp
+L power:GND #PWR01
+U 1 1 5F419D6E
+P 1500 2100
+F 0 "#PWR01" H 1500 1850 50  0001 C CNN
+F 1 "GND" H 1505 1927 50  0000 C CNN
+F 2 "" H 1500 2100 50  0001 C CNN
+F 3 "" H 1500 2100 50  0001 C CNN
+	1    1500 2100
+	-1   0    0    1   
+$EndComp
+Connection ~ 1500 2100
+Wire Wire Line
+	8400 2450 8400 2650
+Wire Wire Line
+	8400 3100 8400 3350
+Wire Wire Line
+	8400 3750 8400 4050
+Wire Wire Line
+	8400 4400 8400 4750
+Wire Wire Line
+	8400 5050 8400 5100
+$Comp
+L Connector_Generic:Conn_01x02 J9
+U 1 1 5F42022D
+P 10000 2300
+F 0 "J9" H 10080 2292 50  0000 L CNN
+F 1 "Conn_01x02" H 10080 2201 50  0000 L CNN
+F 2 "PDB:XT-60_horizontal" H 10000 2300 50  0001 C CNN
+F 3 "~" H 10000 2300 50  0001 C CNN
+	1    10000 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J10
+U 1 1 5F420E90
+P 10000 2650
+F 0 "J10" H 10080 2642 50  0000 L CNN
+F 1 "Conn_01x02" H 10080 2551 50  0000 L CNN
+F 2 "PDB:XT-60_horizontal" H 10000 2650 50  0001 C CNN
+F 3 "~" H 10000 2650 50  0001 C CNN
+	1    10000 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J11
+U 1 1 5F421553
+P 10000 3000
+F 0 "J11" H 10080 2992 50  0000 L CNN
+F 1 "Conn_01x02" H 10080 2901 50  0000 L CNN
+F 2 "PDB:XT-60_horizontal" H 10000 3000 50  0001 C CNN
+F 3 "~" H 10000 3000 50  0001 C CNN
+	1    10000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J12
+U 1 1 5F421A22
+P 10000 3350
+F 0 "J12" H 10080 3342 50  0000 L CNN
+F 1 "Conn_01x02" H 10080 3251 50  0000 L CNN
+F 2 "PDB:XT-60_horizontal" H 10000 3350 50  0001 C CNN
+F 3 "~" H 10000 3350 50  0001 C CNN
+	1    10000 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J13
+U 1 1 5F421E42
+P 10000 3700
+F 0 "J13" H 10080 3692 50  0000 L CNN
+F 1 "Conn_01x02" H 10080 3601 50  0000 L CNN
+F 2 "PDB:XT-60_horizontal" H 10000 3700 50  0001 C CNN
+F 3 "~" H 10000 3700 50  0001 C CNN
+	1    10000 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J14
+U 1 1 5F4223B1
+P 10000 4050
+F 0 "J14" H 10080 4042 50  0000 L CNN
+F 1 "Conn_01x02" H 10080 3951 50  0000 L CNN
+F 2 "PDB:XT-60_horizontal" H 10000 4050 50  0001 C CNN
+F 3 "~" H 10000 4050 50  0001 C CNN
+	1    10000 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J15
+U 1 1 5F4227A4
+P 10000 4400
+F 0 "J15" H 10080 4392 50  0000 L CNN
+F 1 "Conn_01x02" H 10080 4301 50  0000 L CNN
+F 2 "PDB:XT-60_horizontal" H 10000 4400 50  0001 C CNN
+F 3 "~" H 10000 4400 50  0001 C CNN
+	1    10000 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J16
+U 1 1 5F422BC9
+P 10000 4750
+F 0 "J16" H 10080 4742 50  0000 L CNN
+F 1 "Conn_01x02" H 10080 4651 50  0000 L CNN
+F 2 "PDB:XT-60_horizontal" H 10000 4750 50  0001 C CNN
+F 3 "~" H 10000 4750 50  0001 C CNN
+	1    10000 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J17
+U 1 1 5F422F85
+P 10000 5100
+F 0 "J17" H 10080 5092 50  0000 L CNN
+F 1 "Conn_01x02" H 10080 5001 50  0000 L CNN
+F 2 "PDB:XT-60_horizontal" H 10000 5100 50  0001 C CNN
+F 3 "~" H 10000 5100 50  0001 C CNN
+	1    10000 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J18
+U 1 1 5F423729
+P 10000 5450
+F 0 "J18" H 10080 5442 50  0000 L CNN
+F 1 "Conn_01x02" H 10080 5351 50  0000 L CNN
+F 2 "PDB:XT-60_horizontal" H 10000 5450 50  0001 C CNN
+F 3 "~" H 10000 5450 50  0001 C CNN
+	1    10000 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5F42A8B4
+P 9800 2400
+F 0 "#PWR03" H 9800 2150 50  0001 C CNN
+F 1 "GND" V 9805 2272 50  0000 R CNN
+F 2 "" H 9800 2400 50  0001 C CNN
+F 3 "" H 9800 2400 50  0001 C CNN
+	1    9800 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5F42BE0B
+P 9800 2750
+F 0 "#PWR04" H 9800 2500 50  0001 C CNN
+F 1 "GND" V 9805 2622 50  0000 R CNN
+F 2 "" H 9800 2750 50  0001 C CNN
+F 3 "" H 9800 2750 50  0001 C CNN
+	1    9800 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5F42C1F8
+P 9800 3100
+F 0 "#PWR05" H 9800 2850 50  0001 C CNN
+F 1 "GND" V 9805 2972 50  0000 R CNN
+F 2 "" H 9800 3100 50  0001 C CNN
+F 3 "" H 9800 3100 50  0001 C CNN
+	1    9800 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5F42C5E7
+P 9800 3450
+F 0 "#PWR06" H 9800 3200 50  0001 C CNN
+F 1 "GND" V 9805 3322 50  0000 R CNN
+F 2 "" H 9800 3450 50  0001 C CNN
+F 3 "" H 9800 3450 50  0001 C CNN
+	1    9800 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5F42CA13
+P 9800 3800
+F 0 "#PWR07" H 9800 3550 50  0001 C CNN
+F 1 "GND" V 9805 3672 50  0000 R CNN
+F 2 "" H 9800 3800 50  0001 C CNN
+F 3 "" H 9800 3800 50  0001 C CNN
+	1    9800 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 5F42CE15
+P 9800 4150
+F 0 "#PWR08" H 9800 3900 50  0001 C CNN
+F 1 "GND" V 9805 4022 50  0000 R CNN
+F 2 "" H 9800 4150 50  0001 C CNN
+F 3 "" H 9800 4150 50  0001 C CNN
+	1    9800 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 5F42D2BF
+P 9800 4500
+F 0 "#PWR09" H 9800 4250 50  0001 C CNN
+F 1 "GND" V 9805 4372 50  0000 R CNN
+F 2 "" H 9800 4500 50  0001 C CNN
+F 3 "" H 9800 4500 50  0001 C CNN
+	1    9800 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 5F42D6B9
+P 9800 4850
+F 0 "#PWR010" H 9800 4600 50  0001 C CNN
+F 1 "GND" V 9805 4722 50  0000 R CNN
+F 2 "" H 9800 4850 50  0001 C CNN
+F 3 "" H 9800 4850 50  0001 C CNN
+	1    9800 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR011
+U 1 1 5F42DA2E
+P 9800 5200
+F 0 "#PWR011" H 9800 4950 50  0001 C CNN
+F 1 "GND" V 9805 5072 50  0000 R CNN
+F 2 "" H 9800 5200 50  0001 C CNN
+F 3 "" H 9800 5200 50  0001 C CNN
+	1    9800 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 5F42DDD9
+P 9800 5550
+F 0 "#PWR012" H 9800 5300 50  0001 C CNN
+F 1 "GND" V 9805 5422 50  0000 R CNN
+F 2 "" H 9800 5550 50  0001 C CNN
+F 3 "" H 9800 5550 50  0001 C CNN
+	1    9800 5550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9800 2300 8400 2300
+Connection ~ 8400 2300
+Wire Wire Line
+	8400 2300 8400 2450
+Wire Wire Line
+	9800 2650 8400 2650
+Connection ~ 8400 2650
+Wire Wire Line
+	8400 2650 8400 3000
+Wire Wire Line
+	9800 3000 8400 3000
+Connection ~ 8400 3000
+Wire Wire Line
+	8400 3000 8400 3100
+Wire Wire Line
+	9800 3350 8400 3350
+Connection ~ 8400 3350
+Wire Wire Line
+	8400 3350 8400 3700
+Wire Wire Line
+	9800 3700 8400 3700
+Connection ~ 8400 3700
+Wire Wire Line
+	8400 3700 8400 3750
+Wire Wire Line
+	9800 4050 8400 4050
+Connection ~ 8400 4050
+Wire Wire Line
+	8400 4050 8400 4400
+Wire Wire Line
+	9800 4400 8400 4400
+Wire Wire Line
+	9800 4750 8400 4750
+Connection ~ 8400 4750
+Wire Wire Line
+	8400 4750 8400 5050
+Wire Wire Line
+	9800 5100 8400 5100
+Connection ~ 8400 5100
+Wire Wire Line
+	8400 5100 8400 5450
+Wire Wire Line
+	9800 5450 8400 5450
+Connection ~ 8400 5450
+Wire Wire Line
+	8400 5450 8400 5700
+$Comp
+L PDB-rescue:IAUS300N08S5N012-AERPAW Q1
+U 1 1 5F44FF57
+P 6950 1050
+F 0 "Q1" H 7058 1103 60  0000 L CNN
+F 1 "IAUS300N08S5N012" H 7058 997 60  0000 L CNN
+F 2 "Package_TO_SOT_SMD:Infineon_PG-HSOF-8-1" H 7150 1250 60  0001 L CNN
+F 3 "" H 7150 1350 60  0001 L CNN
+F 4 "IAUS300N08S5N012ATMA1CT-ND" H 7150 1450 60  0001 L CNN "Digi-Key_PN"
+F 5 "IAUS300N08S5N012ATMA1" H 7150 1550 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 7150 1650 60  0001 L CNN "Category"
+F 7 "Transistors - FETs, MOSFETs - Single" H 7150 1750 60  0001 L CNN "Family"
+F 8 "https://www.infineon.com/dgdl/Infineon-IAUS300N08S5N012-DS-v01_00-EN.pdf?fileId=5546d462636cc8fb01644081e6ac6348" H 7150 1850 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "https://www.digikey.com/product-detail/en/infineon-technologies/IAUS300N08S5N012ATMA1/IAUS300N08S5N012ATMA1CT-ND/9816189" H 7150 1950 60  0001 L CNN "DK_Detail_Page"
+F 10 "MOSFET N-CH 80V 300A PG-HSOG-8-1" H 7150 2050 60  0001 L CNN "Description"
+F 11 "Infineon Technologies" H 7150 2150 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7150 2250 60  0001 L CNN "Status"
+	1    6950 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L PDB-rescue:IAUS300N08S5N012-AERPAW Q10
+U 1 1 5F45142C
+P 6950 6700
+F 0 "Q10" H 7058 6753 60  0000 L CNN
+F 1 "IAUS300N08S5N012" H 7058 6647 60  0000 L CNN
+F 2 "Package_TO_SOT_SMD:Infineon_PG-HSOF-8-1" H 7150 6900 60  0001 L CNN
+F 3 "" H 7150 7000 60  0001 L CNN
+F 4 "IAUS300N08S5N012ATMA1CT-ND" H 7150 7100 60  0001 L CNN "Digi-Key_PN"
+F 5 "IAUS300N08S5N012ATMA1" H 7150 7200 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 7150 7300 60  0001 L CNN "Category"
+F 7 "Transistors - FETs, MOSFETs - Single" H 7150 7400 60  0001 L CNN "Family"
+F 8 "https://www.infineon.com/dgdl/Infineon-IAUS300N08S5N012-DS-v01_00-EN.pdf?fileId=5546d462636cc8fb01644081e6ac6348" H 7150 7500 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "https://www.digikey.com/product-detail/en/infineon-technologies/IAUS300N08S5N012ATMA1/IAUS300N08S5N012ATMA1CT-ND/9816189" H 7150 7600 60  0001 L CNN "DK_Detail_Page"
+F 10 "MOSFET N-CH 80V 300A PG-HSOG-8-1" H 7150 7700 60  0001 L CNN "Description"
+F 11 "Infineon Technologies" H 7150 7800 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7150 7900 60  0001 L CNN "Status"
+	1    6950 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 6800 6300 6800
+Wire Wire Line
+	6300 6800 6300 6250
+Wire Wire Line
+	6950 6500 4750 6500
+Wire Wire Line
+	4750 6500 4750 5950
+Connection ~ 4750 5950
+Wire Wire Line
+	6950 6900 8400 6900
+Wire Wire Line
+	8400 6900 8400 6350
+Connection ~ 8400 6350
+Wire Wire Line
+	8400 1800 8400 1250
+Wire Wire Line
+	8400 1250 6950 1250
+Connection ~ 8400 1800
+Wire Wire Line
+	6950 850  5250 850 
+Wire Wire Line
+	5250 850  5250 1400
+Connection ~ 5250 1400
+Wire Wire Line
+	5250 1400 3650 1400
+Wire Wire Line
+	6650 1150 6300 1150
+Wire Wire Line
+	6300 1150 6300 1700
+Connection ~ 6300 1700
+Wire Wire Line
+	3650 2700 3650 2900
+Wire Wire Line
+	2400 2900 3650 2900
+Connection ~ 3650 2900
+Wire Wire Line
+	3650 2900 3650 3250
+Wire Wire Line
+	2400 3350 3650 3350
+Wire Wire Line
+	2400 4250 3650 4250
+Connection ~ 3650 4250
+Wire Wire Line
+	3650 4000 3650 4150
+Wire Wire Line
+	3650 3350 3650 3800
+Wire Wire Line
+	2400 3800 3650 3800
+Connection ~ 3650 3800
+Wire Wire Line
+	3650 3800 3650 4000
+Connection ~ 6300 6250
+Wire Wire Line
+	6650 4150 6650 4300
+Wire Wire Line
+	6650 4950 6450 4950
+Wire Wire Line
+	6450 4950 6450 4150
+Connection ~ 6450 4150
+Wire Wire Line
+	6450 4150 6650 4150
+Wire Wire Line
+	6450 4950 6450 5600
+Wire Wire Line
+	6450 5600 6650 5600
+Connection ~ 6450 4950
+Wire Wire Line
+	6450 4150 6450 3650
+Wire Wire Line
+	6450 3650 6650 3650
+Wire Wire Line
+	6450 3000 6650 3000
+Connection ~ 6450 3650
+$Comp
+L PDB-rescue:ACS770ECB-200U-PFF-T-dk_Current-Sensors U2
+U 1 1 5F2FCEE1
+P 3650 6700
+F 0 "U2" V 3597 7144 60  0000 L CNN
+F 1 "ACS770ECB-200U-PFF-T" V 4050 6150 60  0000 L CNN
+F 2 "PDB:CB-5_Formed_Leads" H 3850 6900 60  0001 L CNN
+F 3 "https://www.allegromicro.com/~/media/Files/Datasheets/ACS770-Datasheet.pdf" H 3850 7000 60  0001 L CNN
+F 4 "620-1537-5-ND" H 3850 7100 60  0001 L CNN "Digi-Key_PN"
+F 5 "ACS770ECB-200U-PFF-T" H 3850 7200 60  0001 L CNN "MPN"
+F 6 "Sensors, Transducers" H 3850 7300 60  0001 L CNN "Category"
+F 7 "Current Sensors" H 3850 7400 60  0001 L CNN "Family"
+F 8 "https://www.allegromicro.com/~/media/Files/Datasheets/ACS770-Datasheet.pdf" H 3850 7500 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/allegro-microsystems-llc/ACS770ECB-200U-PFF-T/620-1537-5-ND/4473976" H 3850 7600 60  0001 L CNN "DK_Detail_Page"
+F 10 "SENSOR CURRENT HALL 200A DC" H 3850 7700 60  0001 L CNN "Description"
+F 11 "Allegro MicroSystems, LLC" H 3850 7800 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 3850 7900 60  0001 L CNN "Status"
+	1    3650 6700
+	0    1    1    0   
+$EndComp
+$Comp
+L PDB-rescue:ACS770ECB-200U-PFF-T-dk_Current-Sensors U1
+U 1 1 5F2FE86A
+P 3650 1000
+F 0 "U1" V 3703 556 60  0000 R CNN
+F 1 "ACS770ECB-200U-PFF-T" V 3597 556 60  0000 R CNN
+F 2 "PDB:CB-5_Formed_Leads" H 3850 1200 60  0001 L CNN
+F 3 "https://www.allegromicro.com/~/media/Files/Datasheets/ACS770-Datasheet.pdf" H 3850 1300 60  0001 L CNN
+F 4 "620-1537-5-ND" H 3850 1400 60  0001 L CNN "Digi-Key_PN"
+F 5 "ACS770ECB-200U-PFF-T" H 3850 1500 60  0001 L CNN "MPN"
+F 6 "Sensors, Transducers" H 3850 1600 60  0001 L CNN "Category"
+F 7 "Current Sensors" H 3850 1700 60  0001 L CNN "Family"
+F 8 "https://www.allegromicro.com/~/media/Files/Datasheets/ACS770-Datasheet.pdf" H 3850 1800 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/allegro-microsystems-llc/ACS770ECB-200U-PFF-T/620-1537-5-ND/4473976" H 3850 1900 60  0001 L CNN "DK_Detail_Page"
+F 10 "SENSOR CURRENT HALL 200A DC" H 3850 2000 60  0001 L CNN "Description"
+F 11 "Allegro MicroSystems, LLC" H 3850 2100 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 3850 2200 60  0001 L CNN "Status"
+	1    3650 1000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3650 5950 4750 5950
+Wire Wire Line
+	3650 6300 3650 6050
+Connection ~ 3650 5950
+$Comp
+L power:GND #PWR0101
+U 1 1 5F3186D1
+P 4050 1000
+F 0 "#PWR0101" H 4050 750 50  0001 C CNN
+F 1 "GND" H 4055 827 50  0000 C CNN
+F 2 "" H 4050 1000 50  0001 C CNN
+F 3 "" H 4050 1000 50  0001 C CNN
+	1    4050 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5F319388
+P 3250 6700
+F 0 "#PWR0102" H 3250 6450 50  0001 C CNN
+F 1 "GND" H 3255 6527 50  0000 C CNN
+F 2 "" H 3250 6700 50  0001 C CNN
+F 3 "" H 3250 6700 50  0001 C CNN
+	1    3250 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VA #PWR0103
+U 1 1 5F31CCEE
+P 2950 850
+F 0 "#PWR0103" H 2950 700 50  0001 C CNN
+F 1 "+5VA" H 2965 1023 50  0000 C CNN
+F 2 "" H 2950 850 50  0001 C CNN
+F 3 "" H 2950 850 50  0001 C CNN
+	1    2950 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VA #PWR0104
+U 1 1 5F31E5F9
+P 4350 6600
+F 0 "#PWR0104" H 4350 6450 50  0001 C CNN
+F 1 "+5VA" H 4365 6773 50  0000 C CNN
+F 2 "" H 4350 6600 50  0001 C CNN
+F 3 "" H 4350 6600 50  0001 C CNN
+	1    4350 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Counter_Clockwise J3
+U 1 1 5F3245E0
+P 2200 2800
+F 0 "J3" H 2250 2475 50  0000 C CNN
+F 1 "Conn_02x03_Counter_Clockwise" H 2250 2566 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 2200 2800 50  0001 C CNN
+F 3 "~" H 2200 2800 50  0001 C CNN
+	1    2200 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5F3369F9
+P 1900 2900
+F 0 "#PWR0105" H 1900 2650 50  0001 C CNN
+F 1 "GND" V 1905 2772 50  0000 R CNN
+F 2 "" H 1900 2900 50  0001 C CNN
+F 3 "" H 1900 2900 50  0001 C CNN
+	1    1900 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5VA #PWR0107
+U 1 1 5F337F9C
+P 2400 2800
+F 0 "#PWR0107" H 2400 2650 50  0001 C CNN
+F 1 "+5VA" V 2415 2928 50  0000 L CNN
+F 2 "" H 2400 2800 50  0001 C CNN
+F 3 "" H 2400 2800 50  0001 C CNN
+	1    2400 2800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3650 600  4100 600 
+Text Label 4100 600  0    50   ~ 0
+V1_current
+Text Label 2400 3600 0    50   ~ 0
+V1_current
+$Comp
+L Connector_Generic:Conn_02x03_Counter_Clockwise J4
+U 1 1 5F345F04
+P 2200 3250
+F 0 "J4" H 2250 2925 50  0000 C CNN
+F 1 "Conn_02x03_Counter_Clockwise" H 2250 3016 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 2200 3250 50  0001 C CNN
+F 3 "~" H 2200 3250 50  0001 C CNN
+	1    2200 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Counter_Clockwise J5
+U 1 1 5F3466B1
+P 2200 3700
+F 0 "J5" H 2250 3375 50  0000 C CNN
+F 1 "Conn_02x03_Counter_Clockwise" H 2250 3466 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 2200 3700 50  0001 C CNN
+F 3 "~" H 2200 3700 50  0001 C CNN
+	1    2200 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5F348C4F
+P 1900 3350
+F 0 "#PWR0109" H 1900 3100 50  0001 C CNN
+F 1 "GND" V 1905 3222 50  0000 R CNN
+F 2 "" H 1900 3350 50  0001 C CNN
+F 3 "" H 1900 3350 50  0001 C CNN
+	1    1900 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 5F34932E
+P 1900 3700
+F 0 "#PWR0111" H 1900 3450 50  0001 C CNN
+F 1 "GND" V 1905 3572 50  0000 R CNN
+F 2 "" H 1900 3700 50  0001 C CNN
+F 3 "" H 1900 3700 50  0001 C CNN
+	1    1900 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 5F34976B
+P 1900 4150
+F 0 "#PWR0112" H 1900 3900 50  0001 C CNN
+F 1 "GND" V 1905 4022 50  0000 R CNN
+F 2 "" H 1900 4150 50  0001 C CNN
+F 3 "" H 1900 4150 50  0001 C CNN
+	1    1900 4150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1500 2100 1500 2300
+Wire Wire Line
+	6300 2350 6300 3150
+Wire Wire Line
+	6450 3000 6450 3500
+Wire Wire Line
+	5800 3500 6450 3500
+Connection ~ 6450 3500
+Wire Wire Line
+	6450 3500 6450 3650
+Wire Wire Line
+	5800 3150 6300 3150
+Connection ~ 6300 3150
+Wire Wire Line
+	6300 3150 6300 6250
+Text Label 1900 3600 2    50   ~ 0
+Vg_2
+Text Label 1900 3150 2    50   ~ 0
+Vg_2
+Text Label 1900 2700 2    50   ~ 0
+Vg_1
+Text Label 1900 4050 2    50   ~ 0
+Vg_1
+$Comp
+L power:+5VA #PWR0115
+U 1 1 5F3508D8
+P 2400 3700
+F 0 "#PWR0115" H 2400 3550 50  0001 C CNN
+F 1 "+5VA" V 2400 3800 50  0000 L CNN
+F 2 "" H 2400 3700 50  0001 C CNN
+F 3 "" H 2400 3700 50  0001 C CNN
+	1    2400 3700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3650 7100 3650 7250
+Wire Wire Line
+	3650 7250 4100 7250
+Text Label 4100 7250 0    50   ~ 0
+V2_current
+Text Label 2400 2700 0    50   ~ 0
+V2_current
+Wire Wire Line
+	1900 2800 1900 2900
+Connection ~ 1900 2900
+Wire Wire Line
+	1900 3250 1900 3350
+Connection ~ 1900 3350
+$Comp
+L Connector_Generic:Conn_02x03_Counter_Clockwise J6
+U 1 1 5F346C5F
+P 2200 4150
+F 0 "J6" H 2250 3825 50  0000 C CNN
+F 1 "Conn_02x03_Counter_Clockwise" H 2250 3916 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 2200 4150 50  0001 C CNN
+F 3 "~" H 2200 4150 50  0001 C CNN
+	1    2200 4150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2400 4150 3650 4150
+Connection ~ 3650 4150
+Wire Wire Line
+	3650 4150 3650 4250
+Wire Wire Line
+	2400 3250 3650 3250
+Connection ~ 3650 3250
+Wire Wire Line
+	3650 3250 3650 3350
+$Comp
+L Connector_Generic:Conn_01x02 J19
+U 1 1 603A8571
+P 10150 1250
+F 0 "J19" H 10230 1242 50  0000 L CNN
+F 1 "Conn_01x02" H 10230 1151 50  0000 L CNN
+F 2 "Connector_AMASS:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal" H 10150 1250 50  0001 C CNN
+F 3 "~" H 10150 1250 50  0001 C CNN
+	1    10150 1250
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	9450 1150 9950 1150
+$Comp
+L power:GND #PWR0110
+U 1 1 603B5C47
+P 9800 1250
+F 0 "#PWR0110" H 9800 1000 50  0001 C CNN
+F 1 "GND" V 9805 1122 50  0000 R CNN
+F 2 "" H 9800 1250 50  0001 C CNN
+F 3 "" H 9800 1250 50  0001 C CNN
+	1    9800 1250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9800 1250 9950 1250
+$Comp
+L Connector_Generic:Conn_01x02 J20
+U 1 1 603BB094
+P 10150 1650
+F 0 "J20" H 10230 1642 50  0000 L CNN
+F 1 "Conn_01x02" H 10230 1551 50  0000 L CNN
+F 2 "Connector_AMASS:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal" H 10150 1650 50  0001 C CNN
+F 3 "~" H 10150 1650 50  0001 C CNN
+	1    10150 1650
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	9450 1550 9950 1550
+$Comp
+L power:GND #PWR0113
+U 1 1 603BB09C
+P 9800 1650
+F 0 "#PWR0113" H 9800 1400 50  0001 C CNN
+F 1 "GND" V 9805 1522 50  0000 R CNN
+F 2 "" H 9800 1650 50  0001 C CNN
+F 3 "" H 9800 1650 50  0001 C CNN
+	1    9800 1650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9800 1650 9950 1650
+$Comp
+L Device:C_Small C2
+U 1 1 603BEFD9
+P 4350 6800
+F 0 "C2" H 4442 6846 50  0000 L CNN
+F 1 "0.1uF" H 4442 6755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4350 6800 50  0001 C CNN
+F 3 "~" H 4350 6800 50  0001 C CNN
+	1    4350 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0114
+U 1 1 603C5E27
+P 4450 7000
+F 0 "#PWR0114" H 4450 6750 50  0001 C CNN
+F 1 "GND" H 4455 6827 50  0000 C CNN
+F 2 "" H 4450 7000 50  0001 C CNN
+F 3 "" H 4450 7000 50  0001 C CNN
+	1    4450 7000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4450 7000 4350 7000
+Wire Wire Line
+	4350 7000 4350 6900
+Wire Wire Line
+	4350 6600 4350 6700
+Wire Wire Line
+	4050 6700 4350 6700
+Connection ~ 4350 6700
+$Comp
+L power:GND #PWR0116
+U 1 1 603D44F5
+P 2800 1300
+F 0 "#PWR0116" H 2800 1050 50  0001 C CNN
+F 1 "GND" H 2805 1127 50  0000 C CNN
+F 2 "" H 2800 1300 50  0001 C CNN
+F 3 "" H 2800 1300 50  0001 C CNN
+	1    2800 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 603D44EF
+P 2950 1150
+F 0 "C1" H 3042 1196 50  0000 L CNN
+F 1 "0.1uF" H 3042 1105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2950 1150 50  0001 C CNN
+F 3 "~" H 2950 1150 50  0001 C CNN
+	1    2950 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 1000 2950 1000
+Wire Wire Line
+	2950 1000 2950 1050
+Wire Wire Line
+	2950 850  2950 1000
+Connection ~ 2950 1000
+Wire Wire Line
+	2800 1300 2950 1300
+Wire Wire Line
+	2950 1300 2950 1250
+Text Label 3950 6250 0    50   ~ 0
+Batt_RAW
+Wire Wire Line
+	3750 6300 3950 6300
+Wire Wire Line
+	3950 6300 3950 6250
+Connection ~ 3750 6300
+Text Label 3150 1650 2    50   ~ 0
+Batt_RAW
+Wire Wire Line
+	3150 1650 3250 1650
+Wire Wire Line
+	3250 1650 3250 1400
+Wire Wire Line
+	3250 1400 3550 1400
+Connection ~ 3550 1400
+$Comp
+L Connector:Conn_01x01_Male J21
+U 1 1 60431EEA
+P 3400 5800
+F 0 "J21" V 3554 5712 50  0000 R CNN
+F 1 "Conn_01x01_Male" V 3350 6000 50  0000 R CNN
+F 2 "PDB:Wire_Pad_8x8mm" H 3400 5800 50  0001 C CNN
+F 3 "~" H 3400 5800 50  0001 C CNN
+	1    3400 5800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3400 6000 3400 6050
+Wire Wire Line
+	3400 6050 3650 6050
+Connection ~ 3650 6050
+Wire Wire Line
+	3650 6050 3650 5950
+$Comp
+L Connector:Conn_01x01_Male J22
+U 1 1 60437340
+P 3800 1750
+F 0 "J22" V 3954 1662 50  0000 R CNN
+F 1 "Conn_01x01_Male" V 3863 1662 50  0000 R CNN
+F 2 "PDB:Wire_Pad_8x8mm" H 3800 1750 50  0001 C CNN
+F 3 "~" H 3800 1750 50  0001 C CNN
+	1    3800 1750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 1550 3800 1450
+Wire Wire Line
+	3800 1450 3650 1450
+Connection ~ 3650 1450
+Wire Wire Line
+	3650 1450 3650 1400
+$Comp
+L Connector:Conn_01x01_Male J24
+U 1 1 6045CC03
+P 1700 4750
+F 0 "J24" H 1672 4682 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 1672 4773 50  0000 R CNN
+F 2 "PDB:MountingHole_4mm_Pad" H 1700 4750 50  0001 C CNN
+F 3 "~" H 1700 4750 50  0001 C CNN
+	1    1700 4750
+	-1   0    0    1   
+$EndComp
+Connection ~ 1500 4750
+Wire Wire Line
+	1500 4750 1500 4950
+$Comp
+L Connector:Conn_01x01_Male J23
+U 1 1 60461BD2
+P 1700 2300
+F 0 "J23" H 1672 2232 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 1672 2323 50  0000 R CNN
+F 2 "PDB:MountingHole_4mm_Pad" H 1700 2300 50  0001 C CNN
+F 3 "~" H 1700 2300 50  0001 C CNN
+	1    1700 2300
+	-1   0    0    1   
+$EndComp
+Connection ~ 1500 2300
+Wire Wire Line
+	1500 2300 1500 4750
+Text Label 1900 3800 2    50   ~ 0
+V+_ESC
+Text Label 1900 4250 2    50   ~ 0
+V+_ESC
+Text Label 9450 1150 0    50   ~ 0
+V+_BATT
+Text Label 9450 1550 0    50   ~ 0
+V+_BATT
+$Comp
+L Sensor_Temperature:LMT87DCK U3
+U 1 1 617869D8
+P 1700 5950
+F 0 "U3" H 1371 5996 50  0000 R CNN
+F 1 "LMT87DCK" H 1371 5905 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 1700 5550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lmt87-q1.pdf" H 1700 5950 50  0001 C CNN
+	1    1700 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VA #PWR0117
+U 1 1 61788F26
+P 1700 5500
+F 0 "#PWR0117" H 1700 5350 50  0001 C CNN
+F 1 "+5VA" H 1715 5673 50  0000 C CNN
+F 2 "" H 1700 5500 50  0001 C CNN
+F 3 "" H 1700 5500 50  0001 C CNN
+	1    1700 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 5650 1600 5550
+Wire Wire Line
+	1800 5550 1800 5650
+Wire Wire Line
+	1700 5650 1700 5550
+Wire Wire Line
+	1600 5550 1700 5550
+Connection ~ 1700 5550
+Wire Wire Line
+	1700 5550 1700 5500
+Wire Wire Line
+	1700 5550 1800 5550
+$Comp
+L power:GND #PWR0118
+U 1 1 6179E9E8
+P 1700 6250
+F 0 "#PWR0118" H 1700 6000 50  0001 C CNN
+F 1 "GND" H 1705 6077 50  0000 C CNN
+F 2 "" H 1700 6250 50  0001 C CNN
+F 3 "" H 1700 6250 50  0001 C CNN
+	1    1700 6250
+	1    0    0    -1  
+$EndComp
+Text GLabel 2200 5950 2    50   Input ~ 0
+temp_reading_A
+Wire Wire Line
+	2100 5950 2200 5950
+$Comp
+L Sensor_Temperature:LMT87DCK U4
+U 1 1 617C3F8F
+P 1700 7200
+F 0 "U4" H 1371 7246 50  0000 R CNN
+F 1 "LMT87DCK" H 1371 7155 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 1700 6800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lmt87-q1.pdf" H 1700 7200 50  0001 C CNN
+	1    1700 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VA #PWR0106
+U 1 1 617C3F95
+P 1700 6750
+F 0 "#PWR0106" H 1700 6600 50  0001 C CNN
+F 1 "+5VA" H 1715 6923 50  0000 C CNN
+F 2 "" H 1700 6750 50  0001 C CNN
+F 3 "" H 1700 6750 50  0001 C CNN
+	1    1700 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 6900 1600 6800
+Wire Wire Line
+	1800 6800 1800 6900
+Wire Wire Line
+	1700 6900 1700 6800
+Wire Wire Line
+	1600 6800 1700 6800
+Connection ~ 1700 6800
+Wire Wire Line
+	1700 6800 1700 6750
+Wire Wire Line
+	1700 6800 1800 6800
+$Comp
+L power:GND #PWR0108
+U 1 1 617C3FA2
+P 1700 7500
+F 0 "#PWR0108" H 1700 7250 50  0001 C CNN
+F 1 "GND" H 1705 7327 50  0000 C CNN
+F 2 "" H 1700 7500 50  0001 C CNN
+F 3 "" H 1700 7500 50  0001 C CNN
+	1    1700 7500
+	1    0    0    -1  
+$EndComp
+Text GLabel 2200 7200 2    50   Input ~ 0
+temp_reading_B
+Wire Wire Line
+	2100 7200 2200 7200
+Text GLabel 2400 4050 2    50   Input ~ 0
+temp_reading_B
+Text GLabel 2400 3150 2    50   Input ~ 0
+temp_reading_A
+$Comp
+L Device:C_Small C4
+U 1 1 617D670E
+P 2050 6800
+F 0 "C4" V 1821 6800 50  0000 C CNN
+F 1 "0.1uF" V 1912 6800 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2050 6800 50  0001 C CNN
+F 3 "~" H 2050 6800 50  0001 C CNN
+	1    2050 6800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0119
+U 1 1 617D7968
+P 2200 6850
+F 0 "#PWR0119" H 2200 6600 50  0001 C CNN
+F 1 "GND" H 2205 6677 50  0000 C CNN
+F 2 "" H 2200 6850 50  0001 C CNN
+F 3 "" H 2200 6850 50  0001 C CNN
+	1    2200 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 6850 2200 6800
+Wire Wire Line
+	2200 6800 2150 6800
+Wire Wire Line
+	1950 6800 1800 6800
+Connection ~ 1800 6800
+$Comp
+L Device:C_Small C3
+U 1 1 617DEA64
+P 2050 5550
+F 0 "C3" V 1821 5550 50  0000 C CNN
+F 1 "0.1uF" V 1912 5550 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2050 5550 50  0001 C CNN
+F 3 "~" H 2050 5550 50  0001 C CNN
+	1    2050 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0120
+U 1 1 617DFEBD
+P 2200 5600
+F 0 "#PWR0120" H 2200 5350 50  0001 C CNN
+F 1 "GND" H 2205 5427 50  0000 C CNN
+F 2 "" H 2200 5600 50  0001 C CNN
+F 3 "" H 2200 5600 50  0001 C CNN
+	1    2200 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 5600 2200 5550
+Wire Wire Line
+	2200 5550 2150 5550
+Wire Wire Line
+	1950 5550 1800 5550
+Connection ~ 1800 5550
+$EndSCHEMATC
