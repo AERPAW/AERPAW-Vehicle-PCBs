@@ -1,0 +1,241 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "376aa119-3983-4da6-9cb5-4ff07e3aa81b")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 26.67 29.21)
+		(size 45.72 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-000060c17af9")
+		(property "Sheetname" "Cube_connection"
+			(at 26.67 28.1301 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Cube_connection.kicad_sch"
+			(at 26.67 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SAM4_Mainboard"
+				(path "/376aa119-3983-4da6-9cb5-4ff07e3aa81b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 87.63 29.21)
+		(size 45.72 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-000060c1ee45")
+		(property "Sheetname" "ESC_Landing"
+			(at 87.63 28.1301 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESC_Landing.kicad_sch"
+			(at 87.63 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SAM4_Mainboard"
+				(path "/376aa119-3983-4da6-9cb5-4ff07e3aa81b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 29.21)
+		(size 46.99 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-000060c3b87d")
+		(property "Sheetname" "CUBE PSU"
+			(at 152.4 28.1301 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Autopilot_power_supply.kicad_sch"
+			(at 152.4 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SAM4_Mainboard"
+				(path "/376aa119-3983-4da6-9cb5-4ff07e3aa81b"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 214.63 29.21)
+		(size 46.99 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-000060ca3a97")
+		(property "Sheetname" "AUX_Current_Monitor"
+			(at 214.63 28.1301 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AUX_Current_Monitor.kicad_sch"
+			(at 214.63 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SAM4_Mainboard"
+				(path "/376aa119-3983-4da6-9cb5-4ff07e3aa81b"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 87.63 73.66)
+		(size 48.26 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-000061194cf4")
+		(property "Sheetname" "NeoPix_LED"
+			(at 87.63 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "NeoPix_LED.kicad_sch"
+			(at 87.63 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SAM4_Mainboard"
+				(path "/376aa119-3983-4da6-9cb5-4ff07e3aa81b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 73.66)
+		(size 52.07 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-0000611d55f4")
+		(property "Sheetname" "Connections"
+			(at 147.32 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connections.kicad_sch"
+			(at 147.32 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SAM4_Mainboard"
+				(path "/376aa119-3983-4da6-9cb5-4ff07e3aa81b"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

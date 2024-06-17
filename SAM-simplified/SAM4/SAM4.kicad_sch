@@ -1,0 +1,251 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e67c2b50-1924-4088-848f-a0eec9089561")
+	(paper "A4")
+	(lib_symbols)
+	(text "todo:\n- add 5v3 supply in to board"
+		(exclude_from_sim no)
+		(at 239.522 35.814 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b5649db7-7665-4b98-a408-e97af9647480")
+	)
+	(sheet
+		(at 148.59 63.5)
+		(size 43.18 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "28c7b25f-5ec4-4da2-b0e5-eb1fea787841")
+		(property "Sheetname" "aux_current_monitor"
+			(at 148.59 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "aux_current_monitor.kicad_sch"
+			(at 148.59 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SAM4"
+				(path "/e67c2b50-1924-4088-848f-a0eec9089561"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 95.25 33.02)
+		(size 43.18 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3b3f6e2b-f400-48b7-81be-5711da1f4d56")
+		(property "Sheetname" "esc_landing"
+			(at 95.25 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esc_landing.kicad_sch"
+			(at 95.25 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SAM4"
+				(path "/e67c2b50-1924-4088-848f-a0eec9089561"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 40.64 33.02)
+		(size 43.18 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "48bdb119-baaf-49a9-8ba2-c896c1431633")
+		(property "Sheetname" "cube_connections"
+			(at 40.64 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cube_connections.kicad_sch"
+			(at 40.64 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SAM4"
+				(path "/e67c2b50-1924-4088-848f-a0eec9089561"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 40.64 63.5)
+		(size 43.18 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4ff46005-2f68-448b-b705-02aa6925549a")
+		(property "Sheetname" "connections"
+			(at 40.64 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connections.kicad_sch"
+			(at 40.64 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SAM4"
+				(path "/e67c2b50-1924-4088-848f-a0eec9089561"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 148.59 33.02)
+		(size 43.18 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b6d2f513-9604-45af-afb5-8b5c74bb149d")
+		(property "Sheetname" "neopix_led"
+			(at 148.59 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "neopix_led.kicad_sch"
+			(at 148.59 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SAM4"
+				(path "/e67c2b50-1924-4088-848f-a0eec9089561"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 95.25 63.5)
+		(size 43.18 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d6263b61-9980-4347-8762-83cf30be56d7")
+		(property "Sheetname" "cube_psu"
+			(at 95.25 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cube_psu.kicad_sch"
+			(at 95.25 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SAM4"
+				(path "/e67c2b50-1924-4088-848f-a0eec9089561"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
