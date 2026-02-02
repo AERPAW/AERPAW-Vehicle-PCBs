@@ -1,4 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "PDB_Footprints")(type "KiCad")(uri "${KIPRJMOD}/PDB_Footprints.pretty")(options "")(descr ""))
+  (lib (name "aerpaw-footprints")(type "KiCad")(uri "${KIPRJMOD}/../../../kicad-libs/aerpaw-footprints.pretty")(options "")(descr ""))
 )

@@ -2,12 +2,12 @@
 
 This directory contains the KiCad (9.X) project files with design and manufacturing details for the simplified LAM PDB (power distribution board)s.
 
-The PDB ingests raw battery voltage (via XT90/XT120) and provides connectors for peripherals to hook into this net.
+The PDB ingests raw battery voltage and provides connectors for peripherals to hook into this net.
 
 - 4x 2x3 2.54mm male -- to carrier board
 - 2x XT30 -- to aux systems
 - 6x XT60 -- to motors
-- 2x XT120 -- to batteries (use parallel connection to batteries)
+- 2x XT90 -- to batteries (use parallel connection to batteries)
 
 There isn't a strict upper limit on the current that our drones might demand, but this board is fairly conservatively designed to help move failure points to offboard connectors.
 
