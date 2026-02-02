@@ -356,15 +356,15 @@
 			(uuid "ff42cc0e-42eb-4428-bb83-eecbd095dc74")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_XT90PW-M_1x02_P10.90mm_Horizontal.step"
+		(model "${KIPRJMOD}/../../kicad-libs/3d/XT90PW-F.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz 5.5 11 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -90)
 			)
 		)
 	)
@@ -1373,15 +1373,15 @@
 			(uuid "1c44f12d-2e56-4323-807a-cca61186ab8a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_XT60PW-F_1x02_P7.20mm_Horizontal.step"
+		(model "${KIPRJMOD}/../../kicad-libs/3d/XT60PW-F.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz 4 -2 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -180 -0 -180)
 			)
 		)
 	)
@@ -1653,15 +1653,15 @@
 			(uuid "277ce7ca-a90f-422e-9685-29c103e5deab")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_XT90PW-M_1x02_P10.90mm_Horizontal.step"
+		(model "${KIPRJMOD}/../../kicad-libs/3d/XT90PW-F.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz 5.5 11 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -90)
 			)
 		)
 	)
@@ -2354,15 +2354,15 @@
 			(uuid "7284c174-b261-4608-8147-0568fd34e1e8")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_XT30PW-F_1x02_P2.50mm_Horizontal.step"
+		(model "${KIPRJMOD}/../../kicad-libs/3d/XT30PW-F.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz 2.5 6 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 90)
 			)
 		)
 	)
@@ -2732,15 +2732,15 @@
 			(uuid "bc6774a6-510c-45db-a9a6-a44afcc821b2")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_XT60PW-F_1x02_P7.20mm_Horizontal.step"
+		(model "${KIPRJMOD}/../../kicad-libs/3d/XT60PW-F.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz 4 -2 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -180 -0 -180)
 			)
 		)
 	)
@@ -3400,15 +3400,15 @@
 			(uuid "4adac2c5-32ec-4bee-8085-dab760b48f65")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_XT60PW-F_1x02_P7.20mm_Horizontal.step"
+		(model "${KIPRJMOD}/../../kicad-libs/3d/XT60PW-F.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz 4 -2 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -180 -0 -180)
 			)
 		)
 	)
@@ -3778,15 +3778,15 @@
 			(uuid "b33a08c1-a671-4171-a4bf-a341c07d166d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_XT60PW-F_1x02_P7.20mm_Horizontal.step"
+		(model "${KIPRJMOD}/../../kicad-libs/3d/XT60PW-F.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz 4 -2 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -180 -0 -180)
 			)
 		)
 	)
@@ -4367,15 +4367,15 @@
 			(uuid "904d014a-f98d-4d77-8fd5-b7e34148bb91")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_XT60PW-F_1x02_P7.20mm_Horizontal.step"
+		(model "${KIPRJMOD}/../../kicad-libs/3d/XT60PW-F.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz 4 -2 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -180 -0 -180)
 			)
 		)
 	)
@@ -4883,15 +4883,15 @@
 			(uuid "8564d201-afbe-419c-a622-1eee723c5da4")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_XT60PW-F_1x02_P7.20mm_Horizontal.step"
+		(model "${KIPRJMOD}/../../kicad-libs/3d/XT60PW-F.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz 4 -2 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -180 -0 -180)
 			)
 		)
 	)
@@ -6025,15 +6025,15 @@
 			(uuid "8126230e-81ac-414f-b508-1f079f42b5ac")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_XT30PW-F_1x02_P2.50mm_Horizontal.step"
+		(model "${KIPRJMOD}/../../kicad-libs/3d/XT30PW-F.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz 2.5 6 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 90)
 			)
 		)
 	)
