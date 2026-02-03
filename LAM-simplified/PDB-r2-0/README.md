@@ -33,3 +33,9 @@ A BOM can be assembled by looking at the LCSC field.
 Each part number can be searched on LCSC to get ordering information and/or search terms to find similar parts.
 LCSC is preferred in this case because they are the only major parts provider sourcing the needed AMASS connectors, and their system is tightly integrated with JLC.
 
+- [2x XT30-F](https://www.lcsc.com/product-detail/C2913282.html)
+- [6x XT60-F](https://www.lcsc.com/product-detail/C428722.html)
+- [2x AS150UPW-M](https://www.lcsc.com/product-detail/C19268054.html)
+- ?x standard 2.54mm pin headers
+- [3x Keystone 5010 test points (optional)](https://www.lcsc.com/product-detail/C2906765.html)
+
