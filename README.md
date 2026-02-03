@@ -8,7 +8,7 @@ Designs:
 - `LAM-simplified` contains updated PDB (power distribution board) (>2025)
 - `LightBoard` contains design for auxilary LED drivers for SAM revisions
 - `SAM-original` contains projects for original SAM revisions carrier (<2026)
-- `SAM-simplifier` contains projects for updated SAM revision (PDB only)
+- `SAM-simplified` contains projects for updated SAM revision (PDB only)
 
 Util:
 
