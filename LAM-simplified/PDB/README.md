@@ -29,3 +29,17 @@ When mechanically attaching this board inside the drone chassis, use brass stand
 The board, by design, exposes the GND net to all mechanical mounting holes.
 This *should* aid with grounding the drone's chassis dependent on the rest of the mechanical design.
 
+## BOM
+
+A BOM can be assembled by looking at the LCSC field.
+Each part number can be searched on LCSC to get ordering information and/or search terms to find similar parts.
+LCSC is preferred in this case because they are the only major parts provider sourcing the needed AMASS connectors, and their system is tightly integrated with JLC.
+
+For simplicity, a BOM is below:
+
+- [2x XT30-F](https://www.lcsc.com/product-detail/C2913282.html)
+- [6x XT60-F](https://www.lcsc.com/product-detail/C428722.html)
+- [2x XT90-F](https://www.lcsc.com/product-detail/C3040690.html)
+- ?x standard 2.54mm pin headers
+- [3x Keystone 5010 test points (optional)](https://www.lcsc.com/product-detail/C2906765.html)
+

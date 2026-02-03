@@ -2024,6 +2024,15 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc" "C2913282"
+			(at 107.95 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ed6eedc9-2d9c-482d-a42e-12ada625a74e")
 		)
@@ -2084,6 +2093,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 68.58 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
 			(at 68.58 30.48 0)
 			(effects
 				(font
@@ -2238,6 +2256,15 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc" ""
+			(at 68.58 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ed0dc3fb-5b23-490b-962d-cf1c01c063ef")
 		)
@@ -2376,6 +2403,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 35.56 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
 			(at 35.56 30.48 0)
 			(effects
 				(font
@@ -2590,6 +2626,15 @@
 			)
 		)
 		(property "Description" "https://www.lcsc.com/product-detail/C2913282.html"
+			(at 107.95 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" "C2913282"
 			(at 107.95 39.37 0)
 			(effects
 				(font
@@ -2866,6 +2911,15 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc" "C428722"
+			(at 106.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "74c4694b-dc02-436c-acaf-47cb6100c83d")
 		)
@@ -2936,6 +2990,15 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc" "C428722"
+			(at 125.73 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b01f778d-4904-40da-9e03-e6f70bb8cd17")
 		)
@@ -2998,6 +3061,15 @@
 			)
 		)
 		(property "Description" "test point (alternative flag-style design)"
+			(at 194.31 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" "C2906765"
 			(at 194.31 71.12 0)
 			(effects
 				(font
@@ -3197,6 +3269,15 @@
 			)
 		)
 		(property "Description" "https://www.lcsc.com/product-detail/C428722.html"
+			(at 106.68 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" "C428722"
 			(at 106.68 96.52 0)
 			(effects
 				(font
@@ -3406,6 +3487,15 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc" ""
+			(at 146.05 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0350c616-9e01-4bc0-a51e-00002d37cb63")
 		)
@@ -3539,6 +3629,15 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc" "C428722"
+			(at 106.68 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "50743949-8bd0-4cba-86e7-28f93da0e98e")
 		)
@@ -3600,6 +3699,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 170.18 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
 			(at 170.18 81.28 0)
 			(effects
 				(font
@@ -3872,6 +3980,15 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc" ""
+			(at 153.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "689db938-7118-4fb9-917c-da97a94bcc3c")
 		)
@@ -3939,6 +4056,15 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc" "C2906765"
+			(at 194.31 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ce1188b3-a1e6-4cc6-8ca4-2fc7a133917a")
 		)
@@ -3997,6 +4123,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 162.56 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
 			(at 162.56 81.28 0)
 			(effects
 				(font
@@ -4336,6 +4471,15 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc" "C3040690"
+			(at 157.48 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "09d08e48-08e9-459b-aac6-1c23af5e1436")
 		)
@@ -4405,6 +4549,15 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc" ""
+			(at 153.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0fc63db3-459d-4fcd-afcc-8c02d627cc37")
 		)
@@ -4464,6 +4617,15 @@
 			)
 		)
 		(property "Description" "https://www.lcsc.com/product-detail/C428722.html"
+			(at 125.73 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" "C428722"
 			(at 125.73 82.55 0)
 			(effects
 				(font
@@ -4541,6 +4703,15 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc" ""
+			(at 146.05 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8c77d07c-7207-4902-ade2-20ac3b9a9a75")
 		)
@@ -4600,6 +4771,15 @@
 			)
 		)
 		(property "Description" "https://www.lcsc.com/product-detail/C428722.html"
+			(at 125.73 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" "C428722"
 			(at 125.73 96.52 0)
 			(effects
 				(font
@@ -4670,6 +4850,15 @@
 			)
 		)
 		(property "Description" "test point (alternative flag-style design)"
+			(at 194.31 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" "C2906765"
 			(at 194.31 76.2 0)
 			(effects
 				(font
@@ -4877,6 +5066,15 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc" "C3040690"
+			(at 157.48 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fa4dd8e9-4331-470f-b248-5b103b8ee9d2")
 		)
@@ -4937,6 +5135,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 35.56 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
 			(at 35.56 53.34 0)
 			(effects
 				(font
