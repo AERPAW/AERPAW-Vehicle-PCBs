@@ -577,7 +577,7 @@
           "group_by": false,
           "label": "lcsc",
           "name": "lcsc",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",

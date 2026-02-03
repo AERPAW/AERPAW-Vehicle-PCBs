@@ -200,7 +200,7 @@
 		(uuid "e152249e-8c48-4c4f-82b6-3c4b356c685d")
 	)
 	(fp_text user "+"
-		(at 15.65 39.975 0)
+		(at -15.2 40.55 0)
 		(layer "F.SilkS")
 		(uuid "9dc0b991-b079-4ab7-a885-4b062001e155")
 		(effects
@@ -211,7 +211,7 @@
 		)
 	)
 	(fp_text user "-"
-		(at -15.35 40.075 0)
+		(at 15.35 40.6 0)
 		(layer "F.SilkS")
 		(uuid "bf95f6b3-9486-490e-9bbd-c5c5d729c78d")
 		(effects
@@ -244,21 +244,21 @@
 			)
 		)
 	)
-	(pad "1" thru_hole circle
+	(pad "1" thru_hole roundrect
 		(at 9 34.925)
 		(size 9 9)
 		(drill 5.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.3)
 		(uuid "d16e1a25-82cb-422c-9e97-3c9dd5977b12")
 	)
-	(pad "2" thru_hole roundrect
+	(pad "2" thru_hole circle
 		(at -9 34.925)
 		(size 9 9)
 		(drill 5.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(roundrect_rratio 0.3)
 		(uuid "78e64e59-85e3-4d8b-b737-548c2b47146d")
 	)
 	(pad "MP" thru_hole circle
