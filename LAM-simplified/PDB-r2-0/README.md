@@ -14,10 +14,11 @@ This net is currently unused, but left in for future revisions that might make u
 
 ## Manufacturing
 
-The `jlcpcb` directory contains manufacturing files that can be directly uploaded to JLCPCB's website.
-A handful of settings should be changed, documented below:
+The `jlcpcb` directory and `jlcpcb.zip` contains manufacturing files that can be directly uploaded to JLCPCB's website.
+A handful of settings should be changed: pick a copper weight >= 3oz, and as high of a temperature substrate as available.
+The below screenshot shows an example order that should be reasonable for this application.
 
-- screenshot TODO, but we want to pick the heaviest copper weight available and an appropriate process for exposed pads (ENIG?)
+<img width="1022" height="1841" alt="Screenshot 2026-02-05 at 13-56-46 Online PCB Instant Quote - JLCPCB" src="https://github.com/user-attachments/assets/90fe7b51-eb4f-4eb4-b049-4103ef5e137f" />
 
 Assembly of this board is simple: just solder through-hole connectors into their appropriate slots.
 Do not directly solder wires into this PCB.
