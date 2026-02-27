@@ -2342,15 +2342,15 @@
 	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
 		(at 130.81 111.76 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4dfe1aa6-0138-4d65-bb10-d7152e10b29f")
-		(property "Reference" "J4"
-			(at 132.08 110.4899 0)
+		(property "Reference" "M4"
+			(at 132.08 113.0301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2359,7 +2359,7 @@
 			)
 		)
 		(property "Value" "MR30PW-FB"
-			(at 132.08 113.0299 0)
+			(at 132.08 110.4901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2406,7 +2406,7 @@
 		(instances
 			(project "sam4"
 				(path "/01aa8038-f16d-42dc-9377-7a3d64116781/45b0968d-ea93-472f-9fa5-36e57b913607"
-					(reference "J4")
+					(reference "M4")
 					(unit 1)
 				)
 			)
@@ -2916,7 +2916,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8fc9d381-e17e-4f99-82d6-8182ec796eff")
-		(property "Reference" "J1"
+		(property "Reference" "M1"
 			(at 132.08 82.5499 0)
 			(effects
 				(font
@@ -2973,7 +2973,7 @@
 		(instances
 			(project ""
 				(path "/01aa8038-f16d-42dc-9377-7a3d64116781/45b0968d-ea93-472f-9fa5-36e57b913607"
-					(reference "J1")
+					(reference "M1")
 					(unit 1)
 				)
 			)
@@ -2982,15 +2982,15 @@
 	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
 		(at 130.81 102.87 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a3c8325e-3898-48c3-892e-edc2f65c35ac")
-		(property "Reference" "J3"
-			(at 132.08 101.5999 0)
+		(property "Reference" "M3"
+			(at 132.08 104.1401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2999,7 +2999,7 @@
 			)
 		)
 		(property "Value" "MR30PW-FB"
-			(at 132.08 104.1399 0)
+			(at 132.08 101.6001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3046,7 +3046,7 @@
 		(instances
 			(project "sam4"
 				(path "/01aa8038-f16d-42dc-9377-7a3d64116781/45b0968d-ea93-472f-9fa5-36e57b913607"
-					(reference "J3")
+					(reference "M3")
 					(unit 1)
 				)
 			)
@@ -3328,7 +3328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcd1af60-ad98-4eab-b2cb-481491e7a167")
-		(property "Reference" "J2"
+		(property "Reference" "M2"
 			(at 132.08 91.4399 0)
 			(effects
 				(font
@@ -3385,7 +3385,7 @@
 		(instances
 			(project "sam4"
 				(path "/01aa8038-f16d-42dc-9377-7a3d64116781/45b0968d-ea93-472f-9fa5-36e57b913607"
-					(reference "J2")
+					(reference "M2")
 					(unit 1)
 				)
 			)
