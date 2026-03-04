@@ -132,6 +132,48 @@
 		)
 	)
 	(sheet
+		(at 50.8 63.5)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6f3a7634-cdda-462a-9f7b-631569b157a8")
+		(property "Sheetname" "status_leds"
+			(at 50.8 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "status_leds.kicad_sch"
+			(at 50.8 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sam4"
+				(path "/01aa8038-f16d-42dc-9377-7a3d64116781"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 165.1 38.1)
 		(size 25.4 12.7)
 		(exclude_from_sim no)
