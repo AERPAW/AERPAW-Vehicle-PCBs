@@ -1,0 +1,170 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L P2_PowerSystem-rescue:LMZ23605TZ_NOPB U?
+U 1 1 60C25000
+P 5950 1850
+F 0 "U?" H 5950 2617 50  0000 C CNN
+F 1 "LMZ23605TZ_NOPB" H 5950 2526 50  0000 C CNN
+F 2 "IC_LMZ23605TZ/NOPB" H 5950 1850 50  0001 L BNN
+F 3 "" H 5950 1850 50  0001 L BNN
+F 4 "I" H 5950 1850 50  0001 L BNN "PARTREV"
+F 5 "TEXAS INSTRUMENTS" H 5950 1850 50  0001 L BNN "MANUFACTURER"
+F 6 "Manufacturer Recommendations" H 5950 1850 50  0001 L BNN "STANDARD"
+	1    5950 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 60C28B5A
+P 7000 1650
+F 0 "R?" H 7059 1696 50  0000 L CNN
+F 1 "R_Small" H 7059 1605 50  0000 L CNN
+F 2 "" H 7000 1650 50  0001 C CNN
+F 3 "~" H 7000 1650 50  0001 C CNN
+	1    7000 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 60C29123
+P 7000 1950
+F 0 "R?" H 7059 1996 50  0000 L CNN
+F 1 "R_Small" H 7059 1905 50  0000 L CNN
+F 2 "" H 7000 1950 50  0001 C CNN
+F 3 "~" H 7000 1950 50  0001 C CNN
+	1    7000 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60C29669
+P 7000 2750
+F 0 "#PWR?" H 7000 2500 50  0001 C CNN
+F 1 "GND" H 7005 2577 50  0000 C CNN
+F 2 "" H 7000 2750 50  0001 C CNN
+F 3 "" H 7000 2750 50  0001 C CNN
+	1    7000 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 2250 7000 2250
+Wire Wire Line
+	7000 2250 7000 2350
+Wire Wire Line
+	6550 2350 7000 2350
+Connection ~ 7000 2350
+Wire Wire Line
+	7000 2350 7000 2550
+Wire Wire Line
+	7000 2250 7000 2050
+Connection ~ 7000 2250
+Wire Wire Line
+	6550 1450 7000 1450
+Wire Wire Line
+	7000 1450 7000 1550
+Wire Wire Line
+	7000 1750 7000 1800
+Wire Wire Line
+	6700 1800 7000 1800
+Connection ~ 7000 1800
+Wire Wire Line
+	7000 1800 7000 1850
+Text Label 6700 1800 0    50   ~ 0
+FB1
+Text Label 5150 1750 0    50   ~ 0
+FB1
+Wire Wire Line
+	5150 1750 5350 1750
+Wire Wire Line
+	5350 1850 5250 1850
+Wire Wire Line
+	5250 1850 5250 2550
+Wire Wire Line
+	5250 2550 7000 2550
+Connection ~ 7000 2550
+Wire Wire Line
+	7000 2550 7000 2750
+$Comp
+L Device:CP1 C?
+U 1 1 60C2B188
+P 7600 1850
+F 0 "C?" H 7715 1896 50  0000 L CNN
+F 1 "180uF" H 7715 1805 50  0000 L CNN
+F 2 "" H 7600 1850 50  0001 C CNN
+F 3 "~" H 7600 1850 50  0001 C CNN
+	1    7600 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 1450 7600 1450
+Wire Wire Line
+	7600 1450 7600 1700
+Connection ~ 7000 1450
+Connection ~ 7600 1450
+Wire Wire Line
+	7600 2000 7600 2550
+Wire Wire Line
+	7600 2550 7000 2550
+Connection ~ 7600 2550
+$Comp
+L Device:CP1 C?
+U 1 1 60C2CA43
+P 4750 1850
+F 0 "C?" H 4865 1896 50  0000 L CNN
+F 1 "39uF" H 4865 1805 50  0000 L CNN
+F 2 "" H 4750 1850 50  0001 C CNN
+F 3 "~" H 4750 1850 50  0001 C CNN
+	1    4750 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 1450 4750 1450
+Wire Wire Line
+	4750 1450 4750 1700
+Wire Wire Line
+	4750 2000 4750 2550
+Wire Wire Line
+	4750 2550 5250 2550
+Connection ~ 5250 2550
+Wire Wire Line
+	7600 1450 8050 1450
+$Comp
+L Device:CP1 C?
+U 1 1 60C2E6AE
+P 8050 1850
+F 0 "C?" H 8165 1896 50  0000 L CNN
+F 1 "180uF" H 8165 1805 50  0000 L CNN
+F 2 "" H 8050 1850 50  0001 C CNN
+F 3 "~" H 8050 1850 50  0001 C CNN
+	1    8050 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 2000 8050 2550
+Wire Wire Line
+	7600 2550 8050 2550
+Wire Wire Line
+	8050 1700 8050 1450
+Connection ~ 8050 1450
+Wire Wire Line
+	8050 1450 8150 1450
+Text GLabel 4550 1450 0    50   Input ~ 0
+Batt+
+Wire Wire Line
+	4550 1450 4750 1450
+Connection ~ 4750 1450
+$EndSCHEMATC
