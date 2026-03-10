@@ -1305,7 +1305,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin power_out line
 					(at 12.7 -5.08 180)
 					(length 2.54)
 					(name "Vout(+)"
@@ -1359,7 +1359,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin power_in line
 					(at 12.7 -16.51 180)
 					(length 2.54)
 					(name "Vout(-)"
@@ -1481,6 +1481,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "8.57K Resistance between\nTRIM and GND generates\n5V OUT. \nHigher R\n= lower Vout"
 		(exclude_from_sim no)
@@ -1592,6 +1693,12 @@
 		(uuid "50d96cd7-cafd-4b46-b5e0-467bc3b0663b")
 	)
 	(junction
+		(at 125.73 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63182c14-86c9-4004-9479-9c73fc579d24")
+	)
+	(junction
 		(at 200.66 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1666,6 +1773,10 @@
 		(uuid "29027f1b-ac3b-4b18-bd59-91873e08a3fa")
 	)
 	(no_connect
+		(at 119.38 54.61)
+		(uuid "57033c48-9c64-47c8-93ad-453004693b21")
+	)
+	(no_connect
 		(at 257.81 60.96)
 		(uuid "6e27e5ec-9ac7-4bcd-aa03-658e85b76f10")
 	)
@@ -1676,6 +1787,10 @@
 	(no_connect
 		(at 207.01 133.35)
 		(uuid "fabbd597-915d-4ac0-806a-dd666fd20808")
+	)
+	(no_connect
+		(at 119.38 50.8)
+		(uuid "fbe89d0b-fee4-4cfa-8bab-9fbf18d7f638")
 	)
 	(wire
 		(pts
@@ -1806,6 +1921,16 @@
 			(type default)
 		)
 		(uuid "141167c4-bf94-49c0-b439-073351186875")
+	)
+	(wire
+		(pts
+			(xy 257.81 39.37) (xy 270.51 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a89d0c3-cadd-409c-b13d-8e8d91fbf26f")
 	)
 	(wire
 		(pts
@@ -2099,13 +2224,13 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 50.8) (xy 119.38 50.8)
+			(xy 125.73 40.64) (xy 125.73 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "59aad0a4-4144-46c8-8fc1-41a85499c88a")
+		(uuid "5947b6a8-314d-4837-b014-67c4cd28dc64")
 	)
 	(wire
 		(pts
@@ -2196,6 +2321,16 @@
 			(type default)
 		)
 		(uuid "6cc8a27c-179b-4445-96f4-0067492b8681")
+	)
+	(wire
+		(pts
+			(xy 125.73 40.64) (xy 128.27 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7059a666-e0b9-4b87-a93c-7bc752fd5349")
 	)
 	(wire
 		(pts
@@ -2739,16 +2874,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 39.37) (xy 270.51 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4011a58-0e9a-415e-961e-c77ab83b42cb")
-	)
-	(wire
-		(pts
 			(xy 176.53 118.11) (xy 176.53 114.3)
 		)
 		(stroke
@@ -3029,7 +3154,7 @@
 	)
 	(global_label "VDD_SERVO_IN"
 		(shape input)
-		(at 125.73 40.64 0)
+		(at 128.27 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3038,7 +3163,7 @@
 		)
 		(uuid "3fa0f854-44db-4403-8878-9abc1bb6352a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.73 40.64 0)
+			(at 128.27 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3267,26 +3392,6 @@
 			)
 		)
 	)
-	(global_label "3V3_Spectrum"
-		(shape input)
-		(at 125.73 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c584ef6b-6018-441e-b2ad-7a41e253fa95")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.73 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "~{VDD_HIPOWER_OC}"
 		(shape input)
 		(at 49.53 46.99 180)
@@ -3492,7 +3597,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "8.2K"
+		(property "Value" "8.2k"
 			(at 260.35 140.9699 0)
 			(effects
 				(font
@@ -3501,7 +3606,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 256.032 139.7 90)
 			(effects
 				(font
@@ -3520,6 +3625,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 257.81 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17828"
 			(at 257.81 139.7 0)
 			(effects
 				(font
@@ -3563,7 +3677,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10A"
+		(property "Value" "10A (trip PTC)"
 			(at 177.8 113.0299 90)
 			(effects
 				(font
@@ -3572,7 +3686,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_2512_6332Metric_Pad1.52x3.35mm_HandSolder"
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
 			(at 176.53 111.76 0)
 			(effects
 				(font
@@ -3592,6 +3706,15 @@
 		)
 		(property "Description" "Fuse, small symbol"
 			(at 176.53 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22363547"
+			(at 176.53 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3633,7 +3756,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 250.19 48.2599 0)
 			(effects
 				(font
@@ -3661,6 +3784,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 246.38 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C24497"
 			(at 246.38 46.99 0)
 			(effects
 				(font
@@ -3729,6 +3861,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 219.71 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 219.71 113.03 0)
 			(effects
 				(font
@@ -3825,6 +3966,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C12891"
+			(at 257.81 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e3756bfd-6ebf-439f-8fcf-f3aa6a006dc9")
 		)
@@ -3858,7 +4008,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 191.77 125.7299 0)
 			(effects
 				(font
@@ -3886,6 +4036,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 187.96 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C24497"
 			(at 187.96 124.46 0)
 			(effects
 				(font
@@ -4240,6 +4399,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 125.73 43.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "920a9393-ccb3-4457-918d-20c39e80c261")
+		(property "Reference" "#FLG07"
+			(at 125.73 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 125.73 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 125.73 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2705f0e-875c-4a59-a50a-bae599ded564")
+		)
+		(instances
+			(project "sam4"
+				(path "/01aa8038-f16d-42dc-9377-7a3d64116781/cd9166ba-cf56-47b5-9b6a-b5a582fcda53"
+					(reference "#FLG07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 257.81 111.76 0)
 		(unit 1)
@@ -4286,6 +4510,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 257.81 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C12891"
 			(at 257.81 111.76 0)
 			(effects
 				(font
@@ -4364,6 +4597,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 176.53 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2489754d-32fa-4326-93e5-29e101c4968a")
 		)
@@ -4434,6 +4676,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 176.53 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a06b9ff8-ab07-4c77-b554-81fa65abc07c")
 		)
@@ -4494,6 +4745,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 92.71 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 92.71 20.32 0)
 			(effects
 				(font
@@ -4594,7 +4854,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10A"
+		(property "Value" "10A (trip PTC)"
 			(at 177.8 48.2599 90)
 			(effects
 				(font
@@ -4603,7 +4863,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_2512_6332Metric_Pad1.52x3.35mm_HandSolder"
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
 			(at 176.53 46.99 0)
 			(effects
 				(font
@@ -4623,6 +4883,15 @@
 		)
 		(property "Description" "Fuse, small symbol"
 			(at 176.53 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22363547"
+			(at 176.53 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4692,6 +4961,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 167.64 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C12891"
 			(at 167.64 59.69 0)
 			(effects
 				(font
@@ -4770,6 +5048,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C12891"
+			(at 168.91 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e3474587-e1e1-4e7b-b541-0bf919add3b1")
 		)
@@ -4803,7 +5090,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 260.35 63.5001 0)
 			(effects
 				(font
@@ -4831,6 +5118,15 @@
 			)
 		)
 		(property "Description" "Trim-potentiometer"
+			(at 257.81 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 257.81 64.77 0)
 			(effects
 				(font
@@ -4875,7 +5171,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 260.35 128.2701 0)
 			(effects
 				(font
@@ -4903,6 +5199,15 @@
 			)
 		)
 		(property "Description" "Trim-potentiometer"
+			(at 257.81 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 257.81 129.54 0)
 			(effects
 				(font
@@ -5014,7 +5319,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 191.77 60.9599 0)
 			(effects
 				(font
@@ -5042,6 +5347,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 187.96 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C24497"
 			(at 187.96 59.69 0)
 			(effects
 				(font
@@ -5150,7 +5464,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 250.19 113.0299 0)
 			(effects
 				(font
@@ -5178,6 +5492,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 246.38 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C24497"
 			(at 246.38 111.76 0)
 			(effects
 				(font
@@ -5320,6 +5643,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "e02b2e3e-e947-4a4f-9bc9-31194e788696")
 		)
@@ -5372,7 +5704,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "8.2K"
+		(property "Value" "8.2k"
 			(at 260.35 76.1999 0)
 			(effects
 				(font
@@ -5381,7 +5713,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 256.032 74.93 90)
 			(effects
 				(font
@@ -5400,6 +5732,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 257.81 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17828"
 			(at 257.81 74.93 0)
 			(effects
 				(font
