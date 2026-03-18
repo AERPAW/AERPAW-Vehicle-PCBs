@@ -89,16 +89,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "TODO:\n- use USB-C connector for autopilot\n- add 12V and 5V buck regulators for offboard modules\n- remove and split herelink JST connector\n- move XT connectors to improve clearance\n- add all components to 3d model\n- silkscreen (v1.2)\n- lcsc order\n- include order details for LED boards"
-		(exclude_from_sim no)
-		(at 108.712 103.886 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "217a6501-39bd-4e60-aa94-6e8e505dcc83")
-	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 179.07 105.41 0)

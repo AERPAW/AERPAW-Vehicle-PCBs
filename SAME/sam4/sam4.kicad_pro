@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -514,11 +514,17 @@
         "wire_width": 6
       },
       {
+        "name": "batt",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
         "diff_pair_gap": 0.18,
         "diff_pair_width": 0.11,
         "name": "candiff",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.11,
         "via_diameter": 0.5,
@@ -527,7 +533,7 @@
       {
         "name": "powerheavy",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.4,
         "via_diameter": 0.7,
@@ -536,7 +542,7 @@
       {
         "name": "powerlight",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "via_diameter": 0.7,
@@ -547,7 +553,7 @@
         "diff_pair_width": 0.18,
         "name": "usbdiff",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.18,
         "via_diameter": 0.5,
@@ -579,6 +585,14 @@
       {
         "netclass": "powerheavy",
         "pattern": "VDD_SERVO"
+      },
+      {
+        "netclass": "batt",
+        "pattern": "+BATT"
+      },
+      {
+        "netclass": "batt",
+        "pattern": "BATT_AUX"
       }
     ]
   },
@@ -653,7 +667,7 @@
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -690,8 +704,8 @@
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": false,
-      "sort_field": "${QUANTITY}"
+      "sort_asc": true,
+      "sort_field": "LCSC"
     },
     "connection_grid_size": 50.0,
     "drawing": {
