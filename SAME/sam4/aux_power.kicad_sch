@@ -1102,6 +1102,16 @@
 		)
 		(uuid "098bb474-e94c-4b06-a4e5-5d14ac2eb5d8")
 	)
+	(text "note: you can swap out the regulators *provided that* the new voltage is lower than the previous (5V, 12V -- slot-dependent)\ndownstream the LEDs driven by the power output need to meet power ratings. we can't go from 5V->12V w/out changing the current limit resistor scheme"
+		(exclude_from_sim no)
+		(at 175.26 132.588 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "531ce070-42d8-43e6-a6e5-676663f5f0cc")
+	)
 	(text "use COTS regulators from pololu (also used in drone course)\nto supply \"future-proof\" aux payload modules (e.g. LEDs)"
 		(exclude_from_sim no)
 		(at 69.088 30.48 0)
@@ -2013,7 +2023,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C514173"
 			(at 87.63 91.44 0)
 			(effects
 				(font
@@ -2247,7 +2257,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C514173"
 			(at 87.63 97.79 0)
 			(effects
 				(font
@@ -2472,7 +2482,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C514173"
 			(at 181.61 91.44 0)
 			(effects
 				(font
@@ -3310,7 +3320,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C514173"
 			(at 181.61 97.79 0)
 			(effects
 				(font

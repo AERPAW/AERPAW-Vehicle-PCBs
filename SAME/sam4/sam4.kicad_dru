@@ -225,3 +225,15 @@
   # V-Cut Panel
 	# (constraint edge_clearance (min 0.4mm))
 )
+
+
+# --- creepage ---
+
+#(rule "custom: batt net creepage"
+#	(constraint creepage (min 1mm))
+#	(constraint clearance (min 1mm))
+#	(condition "A.hasNetClass('batt') && !B.hasNetclass('batt')")
+#)
+
+
+

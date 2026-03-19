@@ -2882,7 +2882,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330u 20% 35V"
+		(property "Value" "330u 20% 50V"
 			(at 44.45 114.6809 0)
 			(effects
 				(font
@@ -2918,7 +2918,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C249985"
 			(at 48.26 114.3 0)
 			(effects
 				(font
@@ -3287,7 +3287,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330u 20% 35V"
+		(property "Value" "330u 20% 50V"
 			(at 59.69 84.2009 0)
 			(effects
 				(font
@@ -3323,7 +3323,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C249985"
 			(at 55.88 83.82 0)
 			(effects
 				(font
@@ -3535,7 +3535,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330u 20% 35V"
+		(property "Value" "330u 20% 50V"
 			(at 59.69 114.6809 0)
 			(effects
 				(font
@@ -3571,7 +3571,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C249985"
 			(at 55.88 114.3 0)
 			(effects
 				(font
@@ -4041,7 +4041,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330u 20% 35V"
+		(property "Value" "330u 20% 50V"
 			(at 44.45 84.2009 0)
 			(effects
 				(font
@@ -4077,7 +4077,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C249985"
 			(at 48.26 83.82 0)
 			(effects
 				(font

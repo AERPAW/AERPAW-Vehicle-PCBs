@@ -1622,6 +1622,16 @@
 		)
 		(uuid "a80e591a-ee00-43db-9850-3e3565c9cc6c")
 	)
+	(text "uses\nDF17(1.0H)-80DP-0.5V(57)"
+		(exclude_from_sim no)
+		(at 142.24 160.782 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b2cea1fa-8275-48df-b2d5-150f3aabab21")
+	)
 	(junction
 		(at 109.22 80.01)
 		(diameter 0)
@@ -3099,7 +3109,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C354837"
 			(at 144.78 39.37 0)
 			(effects
 				(font
